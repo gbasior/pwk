@@ -1,0 +1,4 @@
+# Nmap 7.70 scan initiated Mon Jun 18 17:46:24 2018 as: nmap -p 80 -sV -oG nmapServerVersionTemp 10.11.1.251
+Host: 10.11.1.251 ()	Status: Up
+Host: 10.11.1.251 ()	Ports: 80/open/tcp//http//Apache httpd 2.2.11 ((Ubuntu) PHP|5.2.6-3ubuntu4.4 with Suhosin-Patch)/
+# Nmap done at Mon Jun 18 17:46:33 2018 -- 1 IP address (1 host up) scanned in 8.64 seconds

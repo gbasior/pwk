@@ -1,0 +1,3 @@
+ns2.megacorpone.com
+ns1.megacorpone.com
+ns3.megacorpone.com

@@ -1,0 +1,40 @@
+# Nmap 7.70 scan initiated Mon Jun 18 17:49:27 2018 as: nmap -p139,445 --open -oG nmapSmb 10.11.1.1-254
+Host: 10.11.1.5 ()	Status: Up
+Host: 10.11.1.5 ()	Ports: 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///
+Host: 10.11.1.8 ()	Status: Up
+Host: 10.11.1.8 ()	Ports: 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///
+Host: 10.11.1.22 ()	Status: Up
+Host: 10.11.1.22 ()	Ports: 139/open/tcp//netbios-ssn///	Ignored State: closed (1)
+Host: 10.11.1.24 ()	Status: Up
+Host: 10.11.1.24 ()	Ports: 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///
+Host: 10.11.1.31 ()	Status: Up
+Host: 10.11.1.31 ()	Ports: 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///
+Host: 10.11.1.49 ()	Status: Up
+Host: 10.11.1.49 ()	Ports: 139/open/tcp//netbios-ssn///	Ignored State: filtered (1)
+Host: 10.11.1.50 ()	Status: Up
+Host: 10.11.1.50 ()	Ports: 139/open/tcp//netbios-ssn///	Ignored State: filtered (1)
+Host: 10.11.1.73 ()	Status: Up
+Host: 10.11.1.73 ()	Ports: 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///
+Host: 10.11.1.115 ()	Status: Up
+Host: 10.11.1.115 ()	Ports: 139/open/tcp//netbios-ssn///	Ignored State: closed (1)
+Host: 10.11.1.128 ()	Status: Up
+Host: 10.11.1.128 ()	Ports: 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///
+Host: 10.11.1.136 ()	Status: Up
+Host: 10.11.1.136 ()	Ports: 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///
+Host: 10.11.1.145 ()	Status: Up
+Host: 10.11.1.145 ()	Ports: 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///
+Host: 10.11.1.202 ()	Status: Up
+Host: 10.11.1.202 ()	Ports: 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///
+Host: 10.11.1.218 ()	Status: Up
+Host: 10.11.1.218 ()	Ports: 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///
+Host: 10.11.1.220 ()	Status: Up
+Host: 10.11.1.220 ()	Ports: 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///
+Host: 10.11.1.223 ()	Status: Up
+Host: 10.11.1.223 ()	Ports: 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///
+Host: 10.11.1.227 ()	Status: Up
+Host: 10.11.1.227 ()	Ports: 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///
+Host: 10.11.1.229 ()	Status: Up
+Host: 10.11.1.229 ()	Ports: 139/open/tcp//netbios-ssn///	Ignored State: filtered (1)
+Host: 10.11.1.230 ()	Status: Up
+Host: 10.11.1.230 ()	Ports: 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///
+# Nmap done at Mon Jun 18 17:49:33 2018 -- 254 IP addresses (44 hosts up) scanned in 6.29 seconds

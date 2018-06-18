@@ -1,0 +1,104 @@
+# Nmap 7.70 scan initiated Mon Jun 18 17:38:55 2018 as: nmap -p 80 -sV -oG nmapServerVersionTemp 10.11.1.8
+Host: 10.11.1.8 ()	Status: Up
+Host: 10.11.1.8 ()	Ports: 80/open/tcp//http//Apache httpd 2.0.52 ((CentOS))/
+# Nmap done at Mon Jun 18 17:39:03 2018 -- 1 IP address (1 host up) scanned in 8.01 seconds
+# Nmap 7.70 scan initiated Mon Jun 18 17:39:10 2018 as: nmap -p 80 -sV -oG nmapServerVersionTemp 10.11.1.10
+Host: 10.11.1.10 ()	Status: Up
+Host: 10.11.1.10 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 6.0/
+# Nmap done at Mon Jun 18 17:39:18 2018 -- 1 IP address (1 host up) scanned in 8.01 seconds
+# Nmap 7.70 scan initiated Mon Jun 18 17:39:25 2018 as: nmap -p 80 -sV -oG nmapServerVersionTemp 10.11.1.13
+Host: 10.11.1.13 ()	Status: Up
+Host: 10.11.1.13 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 5.1/
+# Nmap done at Mon Jun 18 17:39:33 2018 -- 1 IP address (1 host up) scanned in 8.67 seconds
+# Nmap 7.70 scan initiated Mon Jun 18 17:39:37 2018 as: nmap -p 80 -sV -oG nmapServerVersionTemp 10.11.1.14
+Host: 10.11.1.14 ()	Status: Up
+Host: 10.11.1.14 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 5.1/
+# Nmap done at Mon Jun 18 17:39:45 2018 -- 1 IP address (1 host up) scanned in 8.23 seconds
+# Nmap 7.70 scan initiated Mon Jun 18 17:39:51 2018 as: nmap -p 80 -sV -oG nmapServerVersionTemp 10.11.1.22
+Host: 10.11.1.22 ()	Status: Up
+Host: 10.11.1.22 ()	Ports: 80/open/tcp//http//Apache httpd 1.3.23 ((Unix)  (Red-Hat|Linux) mod_python|2.7.6 Python|1.5.2 mod_ssl|2.8.7 OpenSSL|0.9.6b DAV|1.0.3 PHP|4.1.2 mod_perl|1.26 mod_throttle|3.1.2)/
+# Nmap done at Mon Jun 18 17:39:59 2018 -- 1 IP address (1 host up) scanned in 8.73 seconds
+# Nmap 7.70 scan initiated Mon Jun 18 17:40:06 2018 as: nmap -p 80 -sV -oG nmapServerVersionTemp 10.11.1.24
+Host: 10.11.1.24 ()	Status: Up
+Host: 10.11.1.24 ()	Ports: 80/open/tcp//http//Apache httpd 2.2.4 ((Ubuntu) PHP|5.2.3-1ubuntu6)/
+# Nmap done at Mon Jun 18 17:40:14 2018 -- 1 IP address (1 host up) scanned in 8.22 seconds
+# Nmap 7.70 scan initiated Mon Jun 18 17:40:19 2018 as: nmap -p 80 -sV -oG nmapServerVersionTemp 10.11.1.31
+Host: 10.11.1.31 ()	Status: Up
+Host: 10.11.1.31 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 6.0/
+# Nmap done at Mon Jun 18 17:40:27 2018 -- 1 IP address (1 host up) scanned in 7.99 seconds
+# Nmap 7.70 scan initiated Mon Jun 18 17:40:33 2018 as: nmap -p 80 -sV -oG nmapServerVersionTemp 10.11.1.39
+Host: 10.11.1.39 ()	Status: Up
+Host: 10.11.1.39 ()	Ports: 80/open/tcp//http//nginx 1.6.3/
+# Nmap done at Mon Jun 18 17:40:41 2018 -- 1 IP address (1 host up) scanned in 8.05 seconds
+# Nmap 7.70 scan initiated Mon Jun 18 17:40:47 2018 as: nmap -p 80 -sV -oG nmapServerVersionTemp 10.11.1.49
+Host: 10.11.1.49 ()	Status: Up
+Host: 10.11.1.49 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 8.5/
+# Nmap done at Mon Jun 18 17:40:55 2018 -- 1 IP address (1 host up) scanned in 8.16 seconds
+# Nmap 7.70 scan initiated Mon Jun 18 17:41:01 2018 as: nmap -p 80 -sV -oG nmapServerVersionTemp 10.11.1.50
+Host: 10.11.1.50 ()	Status: Up
+Host: 10.11.1.50 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 8.5/
+# Nmap done at Mon Jun 18 17:41:10 2018 -- 1 IP address (1 host up) scanned in 9.05 seconds
+# Nmap 7.70 scan initiated Mon Jun 18 17:41:13 2018 as: nmap -p 80 -sV -oG nmapServerVersionTemp 10.11.1.71
+Host: 10.11.1.71 ()	Status: Up
+Host: 10.11.1.71 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.7 ((Ubuntu))/
+# Nmap done at Mon Jun 18 17:41:21 2018 -- 1 IP address (1 host up) scanned in 8.03 seconds
+# Nmap 7.70 scan initiated Mon Jun 18 17:41:26 2018 as: nmap -p 80 -sV -oG nmapServerVersionTemp 10.11.1.72
+Host: 10.11.1.72 ()	Status: Up
+Host: 10.11.1.72 ()	Ports: 80/open/tcp//http//Apache httpd 2.2.20 ((Ubuntu))/
+# Nmap done at Mon Jun 18 17:41:34 2018 -- 1 IP address (1 host up) scanned in 8.15 seconds
+# Nmap 7.70 scan initiated Mon Jun 18 17:41:43 2018 as: nmap -p 80 -sV -oG nmapServerVersionTemp 10.11.1.115
+Host: 10.11.1.115 ()	Status: Up
+Host: 10.11.1.115 ()	Ports: 80/open/tcp//http//Apache httpd 2.0.40 ((Red Hat Linux))/
+# Nmap done at Mon Jun 18 17:41:51 2018 -- 1 IP address (1 host up) scanned in 8.11 seconds
+# Nmap 7.70 scan initiated Mon Jun 18 17:41:57 2018 as: nmap -p 80 -sV -oG nmapServerVersionTemp 10.11.1.128
+Host: 10.11.1.128 ()	Status: Up
+Host: 10.11.1.128 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 5.0/
+# Nmap done at Mon Jun 18 17:42:05 2018 -- 1 IP address (1 host up) scanned in 8.64 seconds
+# Nmap 7.70 scan initiated Mon Jun 18 17:42:12 2018 as: nmap -p 80 -sV -oG nmapServerVersionTemp 10.11.1.133
+Host: 10.11.1.133 ()	Status: Up
+Host: 10.11.1.133 ()	Ports: 80/open/tcp//http//Microsoft-IIS         /
+# Nmap done at Mon Jun 18 17:43:52 2018 -- 1 IP address (1 host up) scanned in 100.91 seconds
+# Nmap 7.70 scan initiated Mon Jun 18 17:43:58 2018 as: nmap -p 80 -sV -oG nmapServerVersionTemp 10.11.1.202
+Host: 10.11.1.202 ()	Status: Up
+Host: 10.11.1.202 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 5.0/
+# Nmap done at Mon Jun 18 17:44:06 2018 -- 1 IP address (1 host up) scanned in 8.39 seconds
+# Nmap 7.70 scan initiated Mon Jun 18 17:44:13 2018 as: nmap -p 80 -sV -oG nmapServerVersionTemp 10.11.1.209
+Host: 10.11.1.209 ()	Status: Up
+Host: 10.11.1.209 ()	Ports: 80/open/tcp//http//Apache httpd 1.3.41 ((Unix) mod_perl|1.31)/
+# Nmap done at Mon Jun 18 17:44:21 2018 -- 1 IP address (1 host up) scanned in 8.78 seconds
+# Nmap 7.70 scan initiated Mon Jun 18 17:44:24 2018 as: nmap -p 80 -sV -oG nmapServerVersionTemp 10.11.1.217
+Host: 10.11.1.217 ()	Status: Up
+Host: 10.11.1.217 ()	Ports: 80/open/tcp//http//Apache httpd 2.2.3/
+# Nmap done at Mon Jun 18 17:44:32 2018 -- 1 IP address (1 host up) scanned in 8.17 seconds
+# Nmap 7.70 scan initiated Mon Jun 18 17:44:38 2018 as: nmap -p 80 -sV -oG nmapServerVersionTemp 10.11.1.219
+Host: 10.11.1.219 ()	Status: Up
+Host: 10.11.1.219 ()	Ports: 80/open/tcp//http//Apache httpd/
+# Nmap done at Mon Jun 18 17:44:46 2018 -- 1 IP address (1 host up) scanned in 8.34 seconds
+# Nmap 7.70 scan initiated Mon Jun 18 17:44:53 2018 as: nmap -p 80 -sV -oG nmapServerVersionTemp 10.11.1.223
+Host: 10.11.1.223 ()	Status: Up
+Host: 10.11.1.223 ()	Ports: 80/open/tcp//http//Apache httpd 2.2.14 (DAV|2 mod_ssl|2.2.14 OpenSSL|0.9.8l mod_autoindex_color PHP|5.3.1 mod_apreq2-20090110|2.7.1 mod_perl|2.0.4 Perl|v5.10.1)/
+# Nmap done at Mon Jun 18 17:45:01 2018 -- 1 IP address (1 host up) scanned in 8.90 seconds
+# Nmap 7.70 scan initiated Mon Jun 18 17:45:04 2018 as: nmap -p 80 -sV -oG nmapServerVersionTemp 10.11.1.227
+Host: 10.11.1.227 ()	Status: Up
+Host: 10.11.1.227 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 5.0/
+# Nmap done at Mon Jun 18 17:45:13 2018 -- 1 IP address (1 host up) scanned in 8.65 seconds
+# Nmap 7.70 scan initiated Mon Jun 18 17:45:18 2018 as: nmap -p 80 -sV -oG nmapServerVersionTemp 10.11.1.229
+Host: 10.11.1.229 ()	Status: Up
+Host: 10.11.1.229 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 6.0/
+# Nmap done at Mon Jun 18 17:45:29 2018 -- 1 IP address (1 host up) scanned in 10.54 seconds
+# Nmap 7.70 scan initiated Mon Jun 18 17:45:36 2018 as: nmap -p 80 -sV -oG nmapServerVersionTemp 10.11.1.234
+Host: 10.11.1.234 ()	Status: Up
+Host: 10.11.1.234 ()	Ports: 80/open/tcp//http//Apache httpd 2.2.14 ((Ubuntu))/
+# Nmap done at Mon Jun 18 17:45:45 2018 -- 1 IP address (1 host up) scanned in 8.87 seconds
+# Nmap 7.70 scan initiated Mon Jun 18 17:45:50 2018 as: nmap -p 80 -sV -oG nmapServerVersionTemp 10.11.1.237
+Host: 10.11.1.237 ()	Status: Up
+Host: 10.11.1.237 ()	Ports: 80/open/tcp//http//Apache httpd 2.2.22 ((Debian))/
+# Nmap done at Mon Jun 18 17:45:58 2018 -- 1 IP address (1 host up) scanned in 8.01 seconds
+# Nmap 7.70 scan initiated Mon Jun 18 17:46:10 2018 as: nmap -p 80 -sV -oG nmapServerVersionTemp 10.11.1.238
+Host: 10.11.1.238 ()	Status: Up
+Host: 10.11.1.238 ()	Ports: 80/open/tcp//http//Apache httpd 2.2.22 ((Debian))/
+# Nmap done at Mon Jun 18 17:46:18 2018 -- 1 IP address (1 host up) scanned in 8.57 seconds
+# Nmap 7.70 scan initiated Mon Jun 18 17:46:24 2018 as: nmap -p 80 -sV -oG nmapServerVersionTemp 10.11.1.251
+Host: 10.11.1.251 ()	Status: Up
+Host: 10.11.1.251 ()	Ports: 80/open/tcp//http//Apache httpd 2.2.11 ((Ubuntu) PHP|5.2.6-3ubuntu4.4 with Suhosin-Patch)/
+# Nmap done at Mon Jun 18 17:46:33 2018 -- 1 IP address (1 host up) scanned in 8.64 seconds
