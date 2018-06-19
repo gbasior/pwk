@@ -43,6 +43,8 @@ for ip in $(cat openSmb.txt); do
 	rm osTemp
 done
 
+cp openSmbOsInfo.txt ../ex4.3.4/openSmbOsInfo.txt
+
 
 #Exercise 4
 #nmap -sT == 122K OUTPUT

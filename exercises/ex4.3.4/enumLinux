@@ -1,0 +1,1626 @@
+Starting enum4linux v0.8.9 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Mon Jun 18 19:49:22 2018
+
+ ========================== 
+|    Target Information    |
+ ========================== 
+Target ........... 10.11.1.5
+RID Range ........ 500-550,1000-1050
+Username ......... ''
+Password ......... ''
+Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
+
+
+ ================================================= 
+|    Enumerating Workgroup/Domain on 10.11.1.5    |
+ ================================================= 
+[+] Got domain/workgroup name: THINC
+
+ ========================================= 
+|    Nbtstat Information for 10.11.1.5    |
+ ========================================= 
+Looking up status of 10.11.1.5
+	ALICE           <00> -         B <ACTIVE>  Workstation Service
+	THINC           <00> - <GROUP> B <ACTIVE>  Domain/Workgroup Name
+	ALICE           <03> -         B <ACTIVE>  Messenger Service
+	ALICE           <20> -         B <ACTIVE>  File Server Service
+	THINC           <1e> - <GROUP> B <ACTIVE>  Browser Service Elections
+
+	MAC Address = 00-50-56-B8-A6-0F
+
+ ================================== 
+|    Session Check on 10.11.1.5    |
+ ================================== 
+[+] Server 10.11.1.5 allows sessions using username '', password ''
+
+ ======================================== 
+|    Getting domain SID for 10.11.1.5    |
+ ======================================== 
+Cannot connect to server.  Error was NT_STATUS_INVALID_PARAMETER
+[+] Can't determine if host is part of domain or part of a workgroup
+
+ =================================== 
+|    OS information on 10.11.1.5    |
+ =================================== 
+[+] Got OS info for 10.11.1.5 from smbclient: Domain=[THINC] OS=[Windows 5.1] Server=[Windows 2000 LAN Manager]
+[+] Got OS info for 10.11.1.5 from srvinfo:
+Cannot connect to server.  Error was NT_STATUS_INVALID_PARAMETER
+
+ ========================== 
+|    Users on 10.11.1.5    |
+ ========================== 
+
+
+ ====================================== 
+|    Share Enumeration on 10.11.1.5    |
+ ====================================== 
+[E] Can't list shares: NT_STATUS_ACCESS_DENIED
+
+[+] Attempting to map shares on 10.11.1.5
+
+ ================================================= 
+|    Password Policy Information for 10.11.1.5    |
+ ================================================= 
+[E] Unexpected error from polenum:
+Traceback (most recent call last):
+  File "/usr/bin/polenum", line 33, in <module>
+    from impacket.dcerpc import dcerpc_v4, dcerpc, transport, samr
+ImportError: cannot import name dcerpc_v4
+[+] Retieved partial password policy with rpcclient:
+
+
+
+ =========================== 
+|    Groups on 10.11.1.5    |
+ =========================== 
+
+[+] Getting builtin groups:
+
+[+] Getting builtin group memberships:
+
+[+] Getting local groups:
+
+[+] Getting local group memberships:
+
+[+] Getting domain groups:
+
+[+] Getting domain group memberships:
+
+ ==================================================================== 
+|    Users on 10.11.1.5 via RID cycling (RIDS: 500-550,1000-1050)    |
+ ==================================================================== 
+
+ ========================================== 
+|    Getting printer info for 10.11.1.5    |
+ ========================================== 
+Cannot connect to server.  Error was NT_STATUS_IO_TIMEOUT
+
+
+enum4linux complete on Mon Jun 18 19:55:03 2018
+
+Starting enum4linux v0.8.9 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Mon Jun 18 19:55:04 2018
+
+ ========================== 
+|    Target Information    |
+ ========================== 
+Target ........... 10.11.1.31
+RID Range ........ 500-550,1000-1050
+Username ......... ''
+Password ......... ''
+Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
+
+
+ ================================================== 
+|    Enumerating Workgroup/Domain on 10.11.1.31    |
+ ================================================== 
+[+] Got domain/workgroup name: THINC
+
+ ========================================== 
+|    Nbtstat Information for 10.11.1.31    |
+ ========================================== 
+Looking up status of 10.11.1.31
+	RALPH           <00> -         B <ACTIVE>  Workstation Service
+	THINC           <00> - <GROUP> B <ACTIVE>  Domain/Workgroup Name
+	RALPH           <1f> -         B <ACTIVE>  NetDDE Service
+	RALPH           <03> -         B <ACTIVE>  Messenger Service
+	RALPH           <20> -         B <ACTIVE>  File Server Service
+	THINC           <1e> - <GROUP> B <ACTIVE>  Browser Service Elections
+	THINC           <1d> -         B <ACTIVE>  Master Browser
+	..__MSBROWSE__. <01> - <GROUP> B <ACTIVE>  Master Browser
+	TESTER          <03> -         B <ACTIVE>  Messenger Service
+
+	MAC Address = 00-50-56-B8-2B-56
+
+ =================================== 
+|    Session Check on 10.11.1.31    |
+ =================================== 
+[+] Server 10.11.1.31 allows sessions using username '', password ''
+
+ ========================================= 
+|    Getting domain SID for 10.11.1.31    |
+ ========================================= 
+Cannot connect to server.  Error was NT_STATUS_INVALID_PARAMETER
+[+] Can't determine if host is part of domain or part of a workgroup
+
+ ==================================== 
+|    OS information on 10.11.1.31    |
+ ==================================== 
+[+] Got OS info for 10.11.1.31 from smbclient: Domain=[RALPH] OS=[Windows Server 2003 3790 Service Pack 1] Server=[Windows Server 2003 5.2]
+[+] Got OS info for 10.11.1.31 from srvinfo:
+Cannot connect to server.  Error was NT_STATUS_INVALID_PARAMETER
+
+ =========================== 
+|    Users on 10.11.1.31    |
+ =========================== 
+
+
+ ======================================= 
+|    Share Enumeration on 10.11.1.31    |
+ ======================================= 
+[E] Can't list shares: NT_STATUS_ACCESS_DENIED
+
+[+] Attempting to map shares on 10.11.1.31
+
+ ================================================== 
+|    Password Policy Information for 10.11.1.31    |
+ ================================================== 
+[E] Unexpected error from polenum:
+Traceback (most recent call last):
+  File "/usr/bin/polenum", line 33, in <module>
+    from impacket.dcerpc import dcerpc_v4, dcerpc, transport, samr
+ImportError: cannot import name dcerpc_v4
+[+] Retieved partial password policy with rpcclient:
+
+
+
+ ============================ 
+|    Groups on 10.11.1.31    |
+ ============================ 
+
+[+] Getting builtin groups:
+
+[+] Getting builtin group memberships:
+
+[+] Getting local groups:
+
+[+] Getting local group memberships:
+
+[+] Getting domain groups:
+
+[+] Getting domain group memberships:
+
+ ===================================================================== 
+|    Users on 10.11.1.31 via RID cycling (RIDS: 500-550,1000-1050)    |
+ ===================================================================== 
+
+ =========================================== 
+|    Getting printer info for 10.11.1.31    |
+ =========================================== 
+Cannot connect to server.  Error was NT_STATUS_INVALID_PARAMETER
+
+
+enum4linux complete on Mon Jun 18 19:55:22 2018
+
+Starting enum4linux v0.8.9 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Mon Jun 18 19:55:23 2018
+
+ ========================== 
+|    Target Information    |
+ ========================== 
+Target ........... 10.11.1.73
+RID Range ........ 500-550,1000-1050
+Username ......... ''
+Password ......... ''
+Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
+
+
+ ================================================== 
+|    Enumerating Workgroup/Domain on 10.11.1.73    |
+ ================================================== 
+[+] Got domain/workgroup name: WORKGROUP
+
+ ========================================== 
+|    Nbtstat Information for 10.11.1.73    |
+ ========================================== 
+Looking up status of 10.11.1.73
+	GAMMA           <00> -         B <ACTIVE>  Workstation Service
+	WORKGROUP       <00> - <GROUP> B <ACTIVE>  Domain/Workgroup Name
+	GAMMA           <20> -         B <ACTIVE>  File Server Service
+	WORKGROUP       <1e> - <GROUP> B <ACTIVE>  Browser Service Elections
+
+	MAC Address = 00-50-56-B8-DC-2D
+
+ =================================== 
+|    Session Check on 10.11.1.73    |
+ =================================== 
+[+] Server 10.11.1.73 allows sessions using username '', password ''
+
+ ========================================= 
+|    Getting domain SID for 10.11.1.73    |
+ ========================================= 
+could not initialise lsa pipe. Error was NT_STATUS_ACCESS_DENIED
+could not obtain sid from server
+error: NT_STATUS_ACCESS_DENIED
+[+] Can't determine if host is part of domain or part of a workgroup
+
+ ==================================== 
+|    OS information on 10.11.1.73    |
+ ==================================== 
+[+] Got OS info for 10.11.1.73 from smbclient: Domain=[GAMMA] OS=[Windows 7 Professional 7601 Service Pack 1] Server=[Windows 7 Professional 6.1]
+[E] Can't get OS info with srvinfo: NT_STATUS_ACCESS_DENIED
+
+ =========================== 
+|    Users on 10.11.1.73    |
+ =========================== 
+[E] Couldn't find users using querydispinfo: NT_STATUS_ACCESS_DENIED
+
+[E] Couldn't find users using enumdomusers: NT_STATUS_ACCESS_DENIED
+
+ ======================================= 
+|    Share Enumeration on 10.11.1.73    |
+ ======================================= 
+[E] Can't list shares: NT_STATUS_ACCESS_DENIED
+
+[+] Attempting to map shares on 10.11.1.73
+
+ ================================================== 
+|    Password Policy Information for 10.11.1.73    |
+ ================================================== 
+[E] Unexpected error from polenum:
+Traceback (most recent call last):
+  File "/usr/bin/polenum", line 33, in <module>
+    from impacket.dcerpc import dcerpc_v4, dcerpc, transport, samr
+ImportError: cannot import name dcerpc_v4
+[E] Failed to get password policy with rpcclient
+
+
+ ============================ 
+|    Groups on 10.11.1.73    |
+ ============================ 
+
+[+] Getting builtin groups:
+[E] Can't get builtin groups: NT_STATUS_ACCESS_DENIED
+
+[+] Getting builtin group memberships:
+
+[+] Getting local groups:
+[E] Can't get local groups: NT_STATUS_ACCESS_DENIED
+
+[+] Getting local group memberships:
+
+[+] Getting domain groups:
+[E] Can't get domain groups: NT_STATUS_ACCESS_DENIED
+
+[+] Getting domain group memberships:
+
+ ===================================================================== 
+|    Users on 10.11.1.73 via RID cycling (RIDS: 500-550,1000-1050)    |
+ ===================================================================== 
+[E] Couldn't get SID: NT_STATUS_ACCESS_DENIED.  RID cycling not possible.
+
+ =========================================== 
+|    Getting printer info for 10.11.1.73    |
+ =========================================== 
+could not initialise lsa pipe. Error was NT_STATUS_ACCESS_DENIED
+could not obtain sid from server
+error: NT_STATUS_ACCESS_DENIED
+
+
+enum4linux complete on Mon Jun 18 19:55:41 2018
+
+Starting enum4linux v0.8.9 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Mon Jun 18 19:55:42 2018
+
+ ========================== 
+|    Target Information    |
+ ========================== 
+Target ........... 10.11.1.128
+RID Range ........ 500-550,1000-1050
+Username ......... ''
+Password ......... ''
+Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
+
+
+ =================================================== 
+|    Enumerating Workgroup/Domain on 10.11.1.128    |
+ =================================================== 
+[+] Got domain/workgroup name: WORKGROUP
+
+ =========================================== 
+|    Nbtstat Information for 10.11.1.128    |
+ =========================================== 
+Looking up status of 10.11.1.128
+	DJ              <00> -         M <ACTIVE>  Workstation Service
+	DJ              <20> -         M <ACTIVE>  File Server Service
+	WORKGROUP       <00> - <GROUP> M <ACTIVE>  Domain/Workgroup Name
+	INet~Services   <1c> - <GROUP> M <ACTIVE>  IIS
+	WORKGROUP       <1e> - <GROUP> M <ACTIVE>  Browser Service Elections
+	DJ              <03> -         M <ACTIVE>  Messenger Service
+	IS~DJ           <00> -         M <ACTIVE>  IIS
+
+	MAC Address = 00-50-56-B8-CA-1B
+
+ ==================================== 
+|    Session Check on 10.11.1.128    |
+ ==================================== 
+[+] Server 10.11.1.128 allows sessions using username '', password ''
+
+ ========================================== 
+|    Getting domain SID for 10.11.1.128    |
+ ========================================== 
+Cannot connect to server.  Error was NT_STATUS_INVALID_PARAMETER
+[+] Can't determine if host is part of domain or part of a workgroup
+
+ ===================================== 
+|    OS information on 10.11.1.128    |
+ ===================================== 
+[+] Got OS info for 10.11.1.128 from smbclient: Domain=[DJ] OS=[Windows 5.0] Server=[Windows 2000 LAN Manager]
+[+] Got OS info for 10.11.1.128 from srvinfo:
+Cannot connect to server.  Error was NT_STATUS_INVALID_PARAMETER
+
+ ============================ 
+|    Users on 10.11.1.128    |
+ ============================ 
+
+
+ ======================================== 
+|    Share Enumeration on 10.11.1.128    |
+ ======================================== 
+WARNING: The "syslog" option is deprecated
+Domain=[DJ] OS=[Windows 5.0] Server=[Windows 2000 LAN Manager]
+Domain=[DJ] OS=[Windows 5.0] Server=[Windows 2000 LAN Manager]
+
+	Sharename       Type      Comment
+	---------       ----      -------
+	IPC$            IPC       Remote IPC
+	share           Disk      
+	wwwroot         Disk      
+	ADMIN$          Disk      Remote Admin
+	C$              Disk      Default share
+
+	Server               Comment
+	---------            -------
+
+	Workgroup            Master
+	---------            -------
+
+[+] Attempting to map shares on 10.11.1.128
+//10.11.1.128/IPC$	Mapping: OK	Listing: DENIED
+//10.11.1.128/share	Mapping: DENIED, Listing: N/A
+//10.11.1.128/wwwroot	Mapping: DENIED, Listing: N/A
+//10.11.1.128/ADMIN$	Mapping: DENIED, Listing: N/A
+//10.11.1.128/C$	Mapping: DENIED, Listing: N/A
+
+ =================================================== 
+|    Password Policy Information for 10.11.1.128    |
+ =================================================== 
+[E] Unexpected error from polenum:
+Traceback (most recent call last):
+  File "/usr/bin/polenum", line 33, in <module>
+    from impacket.dcerpc import dcerpc_v4, dcerpc, transport, samr
+ImportError: cannot import name dcerpc_v4
+[+] Retieved partial password policy with rpcclient:
+
+
+
+ ============================= 
+|    Groups on 10.11.1.128    |
+ ============================= 
+
+[+] Getting builtin groups:
+
+[+] Getting builtin group memberships:
+
+[+] Getting local groups:
+
+[+] Getting local group memberships:
+
+[+] Getting domain groups:
+
+[+] Getting domain group memberships:
+
+ ====================================================================== 
+|    Users on 10.11.1.128 via RID cycling (RIDS: 500-550,1000-1050)    |
+ ====================================================================== 
+
+ ============================================ 
+|    Getting printer info for 10.11.1.128    |
+ ============================================ 
+Cannot connect to server.  Error was NT_STATUS_INVALID_PARAMETER
+
+
+enum4linux complete on Mon Jun 18 19:56:07 2018
+
+Starting enum4linux v0.8.9 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Mon Jun 18 19:56:08 2018
+
+ ========================== 
+|    Target Information    |
+ ========================== 
+Target ........... 10.11.1.145
+RID Range ........ 500-550,1000-1050
+Username ......... ''
+Password ......... ''
+Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
+
+
+ =================================================== 
+|    Enumerating Workgroup/Domain on 10.11.1.145    |
+ =================================================== 
+[+] Got domain/workgroup name: WORKGROUP
+
+ =========================================== 
+|    Nbtstat Information for 10.11.1.145    |
+ =========================================== 
+Looking up status of 10.11.1.145
+	HELPDESK        <00> -         B <ACTIVE>  Workstation Service
+	WORKGROUP       <00> - <GROUP> B <ACTIVE>  Domain/Workgroup Name
+	HELPDESK        <20> -         B <ACTIVE>  File Server Service
+
+	MAC Address = 00-50-56-B8-9F-36
+
+ ==================================== 
+|    Session Check on 10.11.1.145    |
+ ==================================== 
+[+] Server 10.11.1.145 allows sessions using username '', password ''
+
+ ========================================== 
+|    Getting domain SID for 10.11.1.145    |
+ ========================================== 
+could not initialise lsa pipe. Error was NT_STATUS_ACCESS_DENIED
+could not obtain sid from server
+error: NT_STATUS_ACCESS_DENIED
+[+] Can't determine if host is part of domain or part of a workgroup
+
+ ===================================== 
+|    OS information on 10.11.1.145    |
+ ===================================== 
+[+] Got OS info for 10.11.1.145 from smbclient: Domain=[HELPDESK] OS=[Windows Server (R) 2008 Standard 6001 Service Pack 1] Server=[Windows Server (R) 2008 Standard 6.0]
+[E] Can't get OS info with srvinfo: NT_STATUS_ACCESS_DENIED
+
+ ============================ 
+|    Users on 10.11.1.145    |
+ ============================ 
+[E] Couldn't find users using querydispinfo: NT_STATUS_ACCESS_DENIED
+
+[E] Couldn't find users using enumdomusers: NT_STATUS_ACCESS_DENIED
+
+ ======================================== 
+|    Share Enumeration on 10.11.1.145    |
+ ======================================== 
+[E] Can't list shares: NT_STATUS_ACCESS_DENIED
+
+[+] Attempting to map shares on 10.11.1.145
+
+ =================================================== 
+|    Password Policy Information for 10.11.1.145    |
+ =================================================== 
+[E] Unexpected error from polenum:
+Traceback (most recent call last):
+  File "/usr/bin/polenum", line 33, in <module>
+    from impacket.dcerpc import dcerpc_v4, dcerpc, transport, samr
+ImportError: cannot import name dcerpc_v4
+[E] Failed to get password policy with rpcclient
+
+
+ ============================= 
+|    Groups on 10.11.1.145    |
+ ============================= 
+
+[+] Getting builtin groups:
+[E] Can't get builtin groups: NT_STATUS_ACCESS_DENIED
+
+[+] Getting builtin group memberships:
+
+[+] Getting local groups:
+[E] Can't get local groups: NT_STATUS_ACCESS_DENIED
+
+[+] Getting local group memberships:
+
+[+] Getting domain groups:
+[E] Can't get domain groups: NT_STATUS_ACCESS_DENIED
+
+[+] Getting domain group memberships:
+
+ ====================================================================== 
+|    Users on 10.11.1.145 via RID cycling (RIDS: 500-550,1000-1050)    |
+ ====================================================================== 
+[E] Couldn't get SID: NT_STATUS_ACCESS_DENIED.  RID cycling not possible.
+
+ ============================================ 
+|    Getting printer info for 10.11.1.145    |
+ ============================================ 
+could not initialise lsa pipe. Error was NT_STATUS_ACCESS_DENIED
+could not obtain sid from server
+error: NT_STATUS_ACCESS_DENIED
+
+
+enum4linux complete on Mon Jun 18 19:56:24 2018
+
+Starting enum4linux v0.8.9 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Mon Jun 18 19:56:26 2018
+
+ ========================== 
+|    Target Information    |
+ ========================== 
+Target ........... 10.11.1.202
+RID Range ........ 500-550,1000-1050
+Username ......... ''
+Password ......... ''
+Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
+
+
+ =================================================== 
+|    Enumerating Workgroup/Domain on 10.11.1.202    |
+ =================================================== 
+[+] Got domain/workgroup name: ACME
+
+ =========================================== 
+|    Nbtstat Information for 10.11.1.202    |
+ =========================================== 
+Looking up status of 10.11.1.202
+	ORACLE          <00> -         M <ACTIVE>  Workstation Service
+	ACME            <00> - <GROUP> M <ACTIVE>  Domain/Workgroup Name
+	ORACLE          <03> -         M <ACTIVE>  Messenger Service
+	ORACLE          <20> -         M <ACTIVE>  File Server Service
+	ACME            <1e> - <GROUP> M <ACTIVE>  Browser Service Elections
+	INet~Services   <1c> - <GROUP> M <ACTIVE>  IIS
+	IS~ORACLE       <00> -         M <ACTIVE>  IIS
+	ACME            <1d> -         M <ACTIVE>  Master Browser
+	..__MSBROWSE__. <01> - <GROUP> M <ACTIVE>  Master Browser
+
+	MAC Address = 00-50-56-B8-BE-09
+
+ ==================================== 
+|    Session Check on 10.11.1.202    |
+ ==================================== 
+[+] Server 10.11.1.202 allows sessions using username '', password ''
+
+ ========================================== 
+|    Getting domain SID for 10.11.1.202    |
+ ========================================== 
+Cannot connect to server.  Error was NT_STATUS_INVALID_PARAMETER
+[+] Can't determine if host is part of domain or part of a workgroup
+
+ ===================================== 
+|    OS information on 10.11.1.202    |
+ ===================================== 
+[+] Got OS info for 10.11.1.202 from smbclient: Domain=[ACME] OS=[Windows 5.0] Server=[Windows 2000 LAN Manager]
+[+] Got OS info for 10.11.1.202 from srvinfo:
+Cannot connect to server.  Error was NT_STATUS_INVALID_PARAMETER
+
+ ============================ 
+|    Users on 10.11.1.202    |
+ ============================ 
+
+
+ ======================================== 
+|    Share Enumeration on 10.11.1.202    |
+ ======================================== 
+WARNING: The "syslog" option is deprecated
+Domain=[ACME] OS=[Windows 5.0] Server=[Windows 2000 LAN Manager]
+Domain=[ACME] OS=[Windows 5.0] Server=[Windows 2000 LAN Manager]
+
+	Sharename       Type      Comment
+	---------       ----      -------
+	IPC$            IPC       Remote IPC
+	ADMIN$          Disk      Remote Admin
+	C$              Disk      Default share
+
+	Server               Comment
+	---------            -------
+	ORACLE               
+
+	Workgroup            Master
+	---------            -------
+	ACME                 ORACLE
+	MSHOME               PAYDAY
+	MYGROUP              BARRY
+	THINC                RALPH
+	THINC.LOCAL          SUFFERANCE
+	WORKGROUP            BOB2
+
+[+] Attempting to map shares on 10.11.1.202
+//10.11.1.202/IPC$	Mapping: OK	Listing: DENIED
+//10.11.1.202/ADMIN$	Mapping: DENIED, Listing: N/A
+//10.11.1.202/C$	Mapping: DENIED, Listing: N/A
+
+ =================================================== 
+|    Password Policy Information for 10.11.1.202    |
+ =================================================== 
+[E] Unexpected error from polenum:
+Traceback (most recent call last):
+  File "/usr/bin/polenum", line 33, in <module>
+    from impacket.dcerpc import dcerpc_v4, dcerpc, transport, samr
+ImportError: cannot import name dcerpc_v4
+[+] Retieved partial password policy with rpcclient:
+
+
+
+ ============================= 
+|    Groups on 10.11.1.202    |
+ ============================= 
+
+[+] Getting builtin groups:
+
+[+] Getting builtin group memberships:
+
+[+] Getting local groups:
+
+[+] Getting local group memberships:
+
+[+] Getting domain groups:
+
+[+] Getting domain group memberships:
+
+ ====================================================================== 
+|    Users on 10.11.1.202 via RID cycling (RIDS: 500-550,1000-1050)    |
+ ====================================================================== 
+
+ ============================================ 
+|    Getting printer info for 10.11.1.202    |
+ ============================================ 
+Cannot connect to server.  Error was NT_STATUS_INVALID_PARAMETER
+
+
+enum4linux complete on Mon Jun 18 19:56:48 2018
+
+Starting enum4linux v0.8.9 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Mon Jun 18 19:56:49 2018
+
+ ========================== 
+|    Target Information    |
+ ========================== 
+Target ........... 10.11.1.218
+RID Range ........ 500-550,1000-1050
+Username ......... ''
+Password ......... ''
+Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
+
+
+ =================================================== 
+|    Enumerating Workgroup/Domain on 10.11.1.218    |
+ =================================================== 
+[+] Got domain/workgroup name: THINC
+
+ =========================================== 
+|    Nbtstat Information for 10.11.1.218    |
+ =========================================== 
+Looking up status of 10.11.1.218
+	OBSERVER        <20> -         B <ACTIVE>  File Server Service
+	OBSERVER        <00> -         B <ACTIVE>  Workstation Service
+	THINC           <00> - <GROUP> B <ACTIVE>  Domain/Workgroup Name
+	THINC           <1e> - <GROUP> B <ACTIVE>  Browser Service Elections
+
+	MAC Address = 00-50-56-B8-0C-64
+
+ ==================================== 
+|    Session Check on 10.11.1.218    |
+ ==================================== 
+[+] Server 10.11.1.218 allows sessions using username '', password ''
+
+ ========================================== 
+|    Getting domain SID for 10.11.1.218    |
+ ========================================== 
+could not initialise lsa pipe. Error was NT_STATUS_ACCESS_DENIED
+could not obtain sid from server
+error: NT_STATUS_ACCESS_DENIED
+[+] Can't determine if host is part of domain or part of a workgroup
+
+ ===================================== 
+|    OS information on 10.11.1.218    |
+ ===================================== 
+[+] Got OS info for 10.11.1.218 from smbclient: Domain=[THINC] OS=[Windows 7 Professional 7601 Service Pack 1] Server=[Windows 7 Professional 6.1]
+[E] Can't get OS info with srvinfo: NT_STATUS_ACCESS_DENIED
+
+ ============================ 
+|    Users on 10.11.1.218    |
+ ============================ 
+[E] Couldn't find users using querydispinfo: NT_STATUS_ACCESS_DENIED
+
+[E] Couldn't find users using enumdomusers: NT_STATUS_ACCESS_DENIED
+
+ ======================================== 
+|    Share Enumeration on 10.11.1.218    |
+ ======================================== 
+[E] Can't list shares: NT_STATUS_ACCESS_DENIED
+
+[+] Attempting to map shares on 10.11.1.218
+
+ =================================================== 
+|    Password Policy Information for 10.11.1.218    |
+ =================================================== 
+[E] Unexpected error from polenum:
+Traceback (most recent call last):
+  File "/usr/bin/polenum", line 33, in <module>
+    from impacket.dcerpc import dcerpc_v4, dcerpc, transport, samr
+ImportError: cannot import name dcerpc_v4
+[E] Failed to get password policy with rpcclient
+
+
+ ============================= 
+|    Groups on 10.11.1.218    |
+ ============================= 
+
+[+] Getting builtin groups:
+[E] Can't get builtin groups: NT_STATUS_ACCESS_DENIED
+
+[+] Getting builtin group memberships:
+
+[+] Getting local groups:
+[E] Can't get local groups: NT_STATUS_ACCESS_DENIED
+
+[+] Getting local group memberships:
+
+[+] Getting domain groups:
+[E] Can't get domain groups: NT_STATUS_ACCESS_DENIED
+
+[+] Getting domain group memberships:
+
+ ====================================================================== 
+|    Users on 10.11.1.218 via RID cycling (RIDS: 500-550,1000-1050)    |
+ ====================================================================== 
+[E] Couldn't get SID: NT_STATUS_ACCESS_DENIED.  RID cycling not possible.
+
+ ============================================ 
+|    Getting printer info for 10.11.1.218    |
+ ============================================ 
+could not initialise lsa pipe. Error was NT_STATUS_ACCESS_DENIED
+could not obtain sid from server
+error: NT_STATUS_ACCESS_DENIED
+
+
+enum4linux complete on Mon Jun 18 19:57:07 2018
+
+Starting enum4linux v0.8.9 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Mon Jun 18 19:57:08 2018
+
+ ========================== 
+|    Target Information    |
+ ========================== 
+Target ........... 10.11.1.220
+RID Range ........ 500-550,1000-1050
+Username ......... ''
+Password ......... ''
+Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
+
+
+ =================================================== 
+|    Enumerating Workgroup/Domain on 10.11.1.220    |
+ =================================================== 
+[+] Got domain/workgroup name: THINC
+
+ =========================================== 
+|    Nbtstat Information for 10.11.1.220    |
+ =========================================== 
+Looking up status of 10.11.1.220
+	MASTER          <00> -         B <ACTIVE>  Workstation Service
+	THINC           <00> - <GROUP> B <ACTIVE>  Domain/Workgroup Name
+	THINC           <1c> - <GROUP> B <ACTIVE>  Domain Controllers
+	MASTER          <20> -         B <ACTIVE>  File Server Service
+	THINC           <1b> -         B <ACTIVE>  Domain Master Browser
+
+	MAC Address = 00-50-56-B8-FF-8D
+
+ ==================================== 
+|    Session Check on 10.11.1.220    |
+ ==================================== 
+[+] Server 10.11.1.220 allows sessions using username '', password ''
+
+ ========================================== 
+|    Getting domain SID for 10.11.1.220    |
+ ========================================== 
+Domain Name: THINC
+Domain Sid: S-1-5-21-279202750-2644721835-2190734642
+[+] Host is part of a domain (not a workgroup)
+
+ ===================================== 
+|    OS information on 10.11.1.220    |
+ ===================================== 
+[+] Got OS info for 10.11.1.220 from smbclient: Domain=[THINC] OS=[Windows Server 2008 R2 Standard 7601 Service Pack 1] Server=[Windows Server 2008 R2 Standard 6.1]
+[+] Got OS info for 10.11.1.220 from srvinfo:
+Could not initialise srvsvc. Error was NT_STATUS_ACCESS_DENIED
+
+ ============================ 
+|    Users on 10.11.1.220    |
+ ============================ 
+[E] Couldn't find users using querydispinfo: NT_STATUS_ACCESS_DENIED
+
+[E] Couldn't find users using enumdomusers: NT_STATUS_ACCESS_DENIED
+
+ ======================================== 
+|    Share Enumeration on 10.11.1.220    |
+ ======================================== 
+[E] Can't list shares: NT_STATUS_ACCESS_DENIED
+
+[+] Attempting to map shares on 10.11.1.220
+
+ =================================================== 
+|    Password Policy Information for 10.11.1.220    |
+ =================================================== 
+[E] Unexpected error from polenum:
+Traceback (most recent call last):
+  File "/usr/bin/polenum", line 33, in <module>
+    from impacket.dcerpc import dcerpc_v4, dcerpc, transport, samr
+ImportError: cannot import name dcerpc_v4
+[E] Failed to get password policy with rpcclient
+
+
+ ============================= 
+|    Groups on 10.11.1.220    |
+ ============================= 
+
+[+] Getting builtin groups:
+
+[+] Getting builtin group memberships:
+
+[+] Getting local groups:
+
+[+] Getting local group memberships:
+
+[+] Getting domain groups:
+
+[+] Getting domain group memberships:
+
+ ====================================================================== 
+|    Users on 10.11.1.220 via RID cycling (RIDS: 500-550,1000-1050)    |
+ ====================================================================== 
+[E] Couldn't get SID: NT_STATUS_ACCESS_DENIED.  RID cycling not possible.
+
+ ============================================ 
+|    Getting printer info for 10.11.1.220    |
+ ============================================ 
+Could not initialise spoolss. Error was NT_STATUS_ACCESS_DENIED
+
+
+enum4linux complete on Mon Jun 18 19:57:46 2018
+
+Starting enum4linux v0.8.9 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Mon Jun 18 19:57:47 2018
+
+ ========================== 
+|    Target Information    |
+ ========================== 
+Target ........... 10.11.1.223
+RID Range ........ 500-550,1000-1050
+Username ......... ''
+Password ......... ''
+Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
+
+
+ =================================================== 
+|    Enumerating Workgroup/Domain on 10.11.1.223    |
+ =================================================== 
+[+] Got domain/workgroup name: WORKGROUP
+
+ =========================================== 
+|    Nbtstat Information for 10.11.1.223    |
+ =========================================== 
+Looking up status of 10.11.1.223
+	JEFF            <00> -         B <ACTIVE>  Workstation Service
+	WORKGROUP       <00> - <GROUP> B <ACTIVE>  Domain/Workgroup Name
+	JEFF            <20> -         B <ACTIVE>  File Server Service
+
+	MAC Address = 00-50-56-B8-C7-82
+
+ ==================================== 
+|    Session Check on 10.11.1.223    |
+ ==================================== 
+[+] Server 10.11.1.223 allows sessions using username '', password ''
+
+ ========================================== 
+|    Getting domain SID for 10.11.1.223    |
+ ========================================== 
+could not initialise lsa pipe. Error was NT_STATUS_ACCESS_DENIED
+could not obtain sid from server
+error: NT_STATUS_ACCESS_DENIED
+[+] Can't determine if host is part of domain or part of a workgroup
+
+ ===================================== 
+|    OS information on 10.11.1.223    |
+ ===================================== 
+[+] Got OS info for 10.11.1.223 from smbclient: Domain=[JEFF] OS=[Windows Server (R) 2008 Standard 6001 Service Pack 1] Server=[Windows Server (R) 2008 Standard 6.0]
+[E] Can't get OS info with srvinfo: NT_STATUS_ACCESS_DENIED
+
+ ============================ 
+|    Users on 10.11.1.223    |
+ ============================ 
+[E] Couldn't find users using querydispinfo: NT_STATUS_ACCESS_DENIED
+
+[E] Couldn't find users using enumdomusers: NT_STATUS_ACCESS_DENIED
+
+ ======================================== 
+|    Share Enumeration on 10.11.1.223    |
+ ======================================== 
+[E] Can't list shares: NT_STATUS_ACCESS_DENIED
+
+[+] Attempting to map shares on 10.11.1.223
+
+ =================================================== 
+|    Password Policy Information for 10.11.1.223    |
+ =================================================== 
+[E] Unexpected error from polenum:
+Traceback (most recent call last):
+  File "/usr/bin/polenum", line 33, in <module>
+    from impacket.dcerpc import dcerpc_v4, dcerpc, transport, samr
+ImportError: cannot import name dcerpc_v4
+[E] Failed to get password policy with rpcclient
+
+
+ ============================= 
+|    Groups on 10.11.1.223    |
+ ============================= 
+
+[+] Getting builtin groups:
+[E] Can't get builtin groups: NT_STATUS_ACCESS_DENIED
+
+[+] Getting builtin group memberships:
+
+[+] Getting local groups:
+[E] Can't get local groups: NT_STATUS_ACCESS_DENIED
+
+[+] Getting local group memberships:
+
+[+] Getting domain groups:
+[E] Can't get domain groups: NT_STATUS_ACCESS_DENIED
+
+[+] Getting domain group memberships:
+
+ ====================================================================== 
+|    Users on 10.11.1.223 via RID cycling (RIDS: 500-550,1000-1050)    |
+ ====================================================================== 
+[E] Couldn't get SID: NT_STATUS_ACCESS_DENIED.  RID cycling not possible.
+
+ ============================================ 
+|    Getting printer info for 10.11.1.223    |
+ ============================================ 
+could not initialise lsa pipe. Error was NT_STATUS_ACCESS_DENIED
+could not obtain sid from server
+error: NT_STATUS_ACCESS_DENIED
+
+
+enum4linux complete on Mon Jun 18 19:58:03 2018
+
+Starting enum4linux v0.8.9 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Mon Jun 18 19:58:04 2018
+
+ ========================== 
+|    Target Information    |
+ ========================== 
+Target ........... 10.11.1.227
+RID Range ........ 500-550,1000-1050
+Username ......... ''
+Password ......... ''
+Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
+
+
+ =================================================== 
+|    Enumerating Workgroup/Domain on 10.11.1.227    |
+ =================================================== 
+[+] Got domain/workgroup name: WORKGROUP
+
+ =========================================== 
+|    Nbtstat Information for 10.11.1.227    |
+ =========================================== 
+Looking up status of 10.11.1.227
+	JD              <00> -         M <ACTIVE>  Workstation Service
+	JD              <20> -         M <ACTIVE>  File Server Service
+	WORKGROUP       <00> - <GROUP> M <ACTIVE>  Domain/Workgroup Name
+	WORKGROUP       <1e> - <GROUP> M <ACTIVE>  Browser Service Elections
+	JD              <03> -         M <ACTIVE>  Messenger Service
+	INet~Services   <1c> - <GROUP> M <ACTIVE>  IIS
+	IS~JD           <00> -         M <ACTIVE>  IIS
+	ADMINISTRATOR   <03> -         M <ACTIVE>  Messenger Service
+
+	MAC Address = 00-50-56-B8-A3-C7
+
+ ==================================== 
+|    Session Check on 10.11.1.227    |
+ ==================================== 
+[+] Server 10.11.1.227 allows sessions using username '', password ''
+
+ ========================================== 
+|    Getting domain SID for 10.11.1.227    |
+ ========================================== 
+Cannot connect to server.  Error was NT_STATUS_INVALID_PARAMETER
+[+] Can't determine if host is part of domain or part of a workgroup
+
+ ===================================== 
+|    OS information on 10.11.1.227    |
+ ===================================== 
+[+] Got OS info for 10.11.1.227 from smbclient: Domain=[JD] OS=[Windows 5.0] Server=[Windows 2000 LAN Manager]
+[+] Got OS info for 10.11.1.227 from srvinfo:
+Cannot connect to server.  Error was NT_STATUS_INVALID_PARAMETER
+
+ ============================ 
+|    Users on 10.11.1.227    |
+ ============================ 
+
+
+ ======================================== 
+|    Share Enumeration on 10.11.1.227    |
+ ======================================== 
+WARNING: The "syslog" option is deprecated
+Domain=[JD] OS=[Windows 5.0] Server=[Windows 2000 LAN Manager]
+Domain=[JD] OS=[Windows 5.0] Server=[Windows 2000 LAN Manager]
+
+	Sharename       Type      Comment
+	---------       ----      -------
+	IPC$            IPC       Remote IPC
+	share           Disk      
+	ADMIN$          Disk      Remote Admin
+	C$              Disk      Default share
+
+	Server               Comment
+	---------            -------
+
+	Workgroup            Master
+	---------            -------
+
+[+] Attempting to map shares on 10.11.1.227
+//10.11.1.227/IPC$	Mapping: OK	Listing: DENIED
+//10.11.1.227/share	Mapping: DENIED, Listing: N/A
+//10.11.1.227/ADMIN$	Mapping: DENIED, Listing: N/A
+//10.11.1.227/C$	Mapping: DENIED, Listing: N/A
+
+ =================================================== 
+|    Password Policy Information for 10.11.1.227    |
+ =================================================== 
+[E] Unexpected error from polenum:
+Traceback (most recent call last):
+  File "/usr/bin/polenum", line 33, in <module>
+    from impacket.dcerpc import dcerpc_v4, dcerpc, transport, samr
+ImportError: cannot import name dcerpc_v4
+[+] Retieved partial password policy with rpcclient:
+
+
+
+ ============================= 
+|    Groups on 10.11.1.227    |
+ ============================= 
+
+[+] Getting builtin groups:
+
+[+] Getting builtin group memberships:
+
+[+] Getting local groups:
+
+[+] Getting local group memberships:
+
+[+] Getting domain groups:
+
+[+] Getting domain group memberships:
+
+ ====================================================================== 
+|    Users on 10.11.1.227 via RID cycling (RIDS: 500-550,1000-1050)    |
+ ====================================================================== 
+
+ ============================================ 
+|    Getting printer info for 10.11.1.227    |
+ ============================================ 
+Cannot connect to server.  Error was NT_STATUS_INVALID_PARAMETER
+
+
+enum4linux complete on Mon Jun 18 19:58:28 2018
+
+Starting enum4linux v0.8.9 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Mon Jun 18 19:58:29 2018
+
+ ========================== 
+|    Target Information    |
+ ========================== 
+Target ........... 10.11.1.227
+RID Range ........ 500-550,1000-1050
+Username ......... ''
+Password ......... ''
+Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
+
+
+ =================================================== 
+|    Enumerating Workgroup/Domain on 10.11.1.227    |
+ =================================================== 
+[+] Got domain/workgroup name: WORKGROUP
+
+ =========================================== 
+|    Nbtstat Information for 10.11.1.227    |
+ =========================================== 
+Looking up status of 10.11.1.227
+	JD              <00> -         M <ACTIVE>  Workstation Service
+	JD              <20> -         M <ACTIVE>  File Server Service
+	WORKGROUP       <00> - <GROUP> M <ACTIVE>  Domain/Workgroup Name
+	WORKGROUP       <1e> - <GROUP> M <ACTIVE>  Browser Service Elections
+	JD              <03> -         M <ACTIVE>  Messenger Service
+	INet~Services   <1c> - <GROUP> M <ACTIVE>  IIS
+	IS~JD           <00> -         M <ACTIVE>  IIS
+	ADMINISTRATOR   <03> -         M <ACTIVE>  Messenger Service
+
+	MAC Address = 00-50-56-B8-A3-C7
+
+ ==================================== 
+|    Session Check on 10.11.1.227    |
+ ==================================== 
+[+] Server 10.11.1.227 allows sessions using username '', password ''
+
+ ========================================== 
+|    Getting domain SID for 10.11.1.227    |
+ ========================================== 
+Cannot connect to server.  Error was NT_STATUS_INVALID_PARAMETER
+[+] Can't determine if host is part of domain or part of a workgroup
+
+ ===================================== 
+|    OS information on 10.11.1.227    |
+ ===================================== 
+[+] Got OS info for 10.11.1.227 from smbclient: Domain=[JD] OS=[Windows 5.0] Server=[Windows 2000 LAN Manager]
+[+] Got OS info for 10.11.1.227 from srvinfo:
+Cannot connect to server.  Error was NT_STATUS_INVALID_PARAMETER
+
+ ============================ 
+|    Users on 10.11.1.227    |
+ ============================ 
+
+
+ ======================================== 
+|    Share Enumeration on 10.11.1.227    |
+ ======================================== 
+WARNING: The "syslog" option is deprecated
+Domain=[JD] OS=[Windows 5.0] Server=[Windows 2000 LAN Manager]
+Domain=[JD] OS=[Windows 5.0] Server=[Windows 2000 LAN Manager]
+
+	Sharename       Type      Comment
+	---------       ----      -------
+	IPC$            IPC       Remote IPC
+	share           Disk      
+	ADMIN$          Disk      Remote Admin
+	C$              Disk      Default share
+
+	Server               Comment
+	---------            -------
+
+	Workgroup            Master
+	---------            -------
+
+[+] Attempting to map shares on 10.11.1.227
+//10.11.1.227/IPC$	Mapping: OK	Listing: DENIED
+//10.11.1.227/share	Mapping: DENIED, Listing: N/A
+//10.11.1.227/ADMIN$	Mapping: DENIED, Listing: N/A
+//10.11.1.227/C$	Mapping: DENIED, Listing: N/A
+
+ =================================================== 
+|    Password Policy Information for 10.11.1.227    |
+ =================================================== 
+[E] Unexpected error from polenum:
+Traceback (most recent call last):
+  File "/usr/bin/polenum", line 33, in <module>
+    from impacket.dcerpc import dcerpc_v4, dcerpc, transport, samr
+ImportError: cannot import name dcerpc_v4
+[+] Retieved partial password policy with rpcclient:
+
+
+
+ ============================= 
+|    Groups on 10.11.1.227    |
+ ============================= 
+
+[+] Getting builtin groups:
+
+[+] Getting builtin group memberships:
+
+[+] Getting local groups:
+
+[+] Getting local group memberships:
+
+[+] Getting domain groups:
+
+[+] Getting domain group memberships:
+
+ ====================================================================== 
+|    Users on 10.11.1.227 via RID cycling (RIDS: 500-550,1000-1050)    |
+ ====================================================================== 
+
+ ============================================ 
+|    Getting printer info for 10.11.1.227    |
+ ============================================ 
+Cannot connect to server.  Error was NT_STATUS_INVALID_PARAMETER
+
+
+enum4linux complete on Mon Jun 18 19:58:53 2018
+
+Starting enum4linux v0.8.9 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Mon Jun 18 19:58:54 2018
+
+ ========================== 
+|    Target Information    |
+ ========================== 
+Target ........... 10.11.1.229
+RID Range ........ 500-550,1000-1050
+Username ......... ''
+Password ......... ''
+Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
+
+
+ =================================================== 
+|    Enumerating Workgroup/Domain on 10.11.1.229    |
+ =================================================== 
+[+] Got domain/workgroup name: WORKGROUP
+
+ =========================================== 
+|    Nbtstat Information for 10.11.1.229    |
+ =========================================== 
+Looking up status of 10.11.1.229
+	MAIL            <00> -         B <ACTIVE>  Workstation Service
+	WORKGROUP       <00> - <GROUP> B <ACTIVE>  Domain/Workgroup Name
+	MAIL            <1f> -         B <ACTIVE>  NetDDE Service
+	MAIL            <03> -         B <ACTIVE>  Messenger Service
+	MAIL            <20> -         B <ACTIVE>  File Server Service
+	WORKGROUP       <1e> - <GROUP> B <ACTIVE>  Browser Service Elections
+	OFFSEC          <03> -         B <ACTIVE>  Messenger Service
+
+	MAC Address = 00-50-56-B8-FE-21
+
+ ==================================== 
+|    Session Check on 10.11.1.229    |
+ ==================================== 
+[+] Server 10.11.1.229 allows sessions using username '', password ''
+
+ ========================================== 
+|    Getting domain SID for 10.11.1.229    |
+ ========================================== 
+Cannot connect to server.  Error was NT_STATUS_INVALID_PARAMETER
+[+] Can't determine if host is part of domain or part of a workgroup
+
+ ===================================== 
+|    OS information on 10.11.1.229    |
+ ===================================== 
+[+] Got OS info for 10.11.1.229 from smbclient: Domain=[MAIL] OS=[Windows Server 2003 3790 Service Pack 1] Server=[Windows Server 2003 5.2]
+[+] Got OS info for 10.11.1.229 from srvinfo:
+Cannot connect to server.  Error was NT_STATUS_INVALID_PARAMETER
+
+ ============================ 
+|    Users on 10.11.1.229    |
+ ============================ 
+
+
+ ======================================== 
+|    Share Enumeration on 10.11.1.229    |
+ ======================================== 
+[E] Can't list shares: NT_STATUS_ACCESS_DENIED
+
+[+] Attempting to map shares on 10.11.1.229
+
+ =================================================== 
+|    Password Policy Information for 10.11.1.229    |
+ =================================================== 
+[E] Unexpected error from polenum:
+Traceback (most recent call last):
+  File "/usr/bin/polenum", line 33, in <module>
+    from impacket.dcerpc import dcerpc_v4, dcerpc, transport, samr
+ImportError: cannot import name dcerpc_v4
+[+] Retieved partial password policy with rpcclient:
+
+
+
+ ============================= 
+|    Groups on 10.11.1.229    |
+ ============================= 
+
+[+] Getting builtin groups:
+
+[+] Getting builtin group memberships:
+
+[+] Getting local groups:
+
+[+] Getting local group memberships:
+
+[+] Getting domain groups:
+
+[+] Getting domain group memberships:
+
+ ====================================================================== 
+|    Users on 10.11.1.229 via RID cycling (RIDS: 500-550,1000-1050)    |
+ ====================================================================== 
+
+ ============================================ 
+|    Getting printer info for 10.11.1.229    |
+ ============================================ 
+Cannot connect to server.  Error was NT_STATUS_INVALID_PARAMETER
+
+
+enum4linux complete on Mon Jun 18 19:59:22 2018
+
+Starting enum4linux v0.8.9 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Mon Jun 18 19:59:23 2018
+
+ ========================== 
+|    Target Information    |
+ ========================== 
+Target ........... 10.11.1.229
+RID Range ........ 500-550,1000-1050
+Username ......... ''
+Password ......... ''
+Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
+
+
+ =================================================== 
+|    Enumerating Workgroup/Domain on 10.11.1.229    |
+ =================================================== 
+[+] Got domain/workgroup name: WORKGROUP
+
+ =========================================== 
+|    Nbtstat Information for 10.11.1.229    |
+ =========================================== 
+Looking up status of 10.11.1.229
+	MAIL            <00> -         B <ACTIVE>  Workstation Service
+	WORKGROUP       <00> - <GROUP> B <ACTIVE>  Domain/Workgroup Name
+	MAIL            <1f> -         B <ACTIVE>  NetDDE Service
+	MAIL            <03> -         B <ACTIVE>  Messenger Service
+	MAIL            <20> -         B <ACTIVE>  File Server Service
+	WORKGROUP       <1e> - <GROUP> B <ACTIVE>  Browser Service Elections
+	OFFSEC          <03> -         B <ACTIVE>  Messenger Service
+
+	MAC Address = 00-50-56-B8-FE-21
+
+ ==================================== 
+|    Session Check on 10.11.1.229    |
+ ==================================== 
+[+] Server 10.11.1.229 allows sessions using username '', password ''
+
+ ========================================== 
+|    Getting domain SID for 10.11.1.229    |
+ ========================================== 
+Cannot connect to server.  Error was NT_STATUS_INVALID_PARAMETER
+[+] Can't determine if host is part of domain or part of a workgroup
+
+ ===================================== 
+|    OS information on 10.11.1.229    |
+ ===================================== 
+[+] Got OS info for 10.11.1.229 from smbclient: Domain=[MAIL] OS=[Windows Server 2003 3790 Service Pack 1] Server=[Windows Server 2003 5.2]
+[+] Got OS info for 10.11.1.229 from srvinfo:
+Cannot connect to server.  Error was NT_STATUS_INVALID_PARAMETER
+
+ ============================ 
+|    Users on 10.11.1.229    |
+ ============================ 
+
+
+ ======================================== 
+|    Share Enumeration on 10.11.1.229    |
+ ======================================== 
+[E] Can't list shares: NT_STATUS_ACCESS_DENIED
+
+[+] Attempting to map shares on 10.11.1.229
+
+ =================================================== 
+|    Password Policy Information for 10.11.1.229    |
+ =================================================== 
+[E] Unexpected error from polenum:
+Traceback (most recent call last):
+  File "/usr/bin/polenum", line 33, in <module>
+    from impacket.dcerpc import dcerpc_v4, dcerpc, transport, samr
+ImportError: cannot import name dcerpc_v4
+[+] Retieved partial password policy with rpcclient:
+
+
+
+ ============================= 
+|    Groups on 10.11.1.229    |
+ ============================= 
+
+[+] Getting builtin groups:
+
+[+] Getting builtin group memberships:
+
+[+] Getting local groups:
+
+[+] Getting local group memberships:
+
+[+] Getting domain groups:
+
+[+] Getting domain group memberships:
+
+ ====================================================================== 
+|    Users on 10.11.1.229 via RID cycling (RIDS: 500-550,1000-1050)    |
+ ====================================================================== 
+
+ ============================================ 
+|    Getting printer info for 10.11.1.229    |
+ ============================================ 
+Cannot connect to server.  Error was NT_STATUS_INVALID_PARAMETER
+
+
+enum4linux complete on Mon Jun 18 19:59:52 2018
+
+Starting enum4linux v0.8.9 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Mon Jun 18 19:59:53 2018
+
+ ========================== 
+|    Target Information    |
+ ========================== 
+Target ........... 10.11.1.229
+RID Range ........ 500-550,1000-1050
+Username ......... ''
+Password ......... ''
+Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
+
+
+ =================================================== 
+|    Enumerating Workgroup/Domain on 10.11.1.229    |
+ =================================================== 
+[+] Got domain/workgroup name: WORKGROUP
+
+ =========================================== 
+|    Nbtstat Information for 10.11.1.229    |
+ =========================================== 
+Looking up status of 10.11.1.229
+	MAIL            <00> -         B <ACTIVE>  Workstation Service
+	WORKGROUP       <00> - <GROUP> B <ACTIVE>  Domain/Workgroup Name
+	MAIL            <1f> -         B <ACTIVE>  NetDDE Service
+	MAIL            <03> -         B <ACTIVE>  Messenger Service
+	MAIL            <20> -         B <ACTIVE>  File Server Service
+	WORKGROUP       <1e> - <GROUP> B <ACTIVE>  Browser Service Elections
+	OFFSEC          <03> -         B <ACTIVE>  Messenger Service
+
+	MAC Address = 00-50-56-B8-FE-21
+
+ ==================================== 
+|    Session Check on 10.11.1.229    |
+ ==================================== 
+[+] Server 10.11.1.229 allows sessions using username '', password ''
+
+ ========================================== 
+|    Getting domain SID for 10.11.1.229    |
+ ========================================== 
+Cannot connect to server.  Error was NT_STATUS_INVALID_PARAMETER
+[+] Can't determine if host is part of domain or part of a workgroup
+
+ ===================================== 
+|    OS information on 10.11.1.229    |
+ ===================================== 
+[+] Got OS info for 10.11.1.229 from smbclient: Domain=[MAIL] OS=[Windows Server 2003 3790 Service Pack 1] Server=[Windows Server 2003 5.2]
+[+] Got OS info for 10.11.1.229 from srvinfo:
+Cannot connect to server.  Error was NT_STATUS_INVALID_PARAMETER
+
+ ============================ 
+|    Users on 10.11.1.229    |
+ ============================ 
+
+
+ ======================================== 
+|    Share Enumeration on 10.11.1.229    |
+ ======================================== 
+[E] Can't list shares: NT_STATUS_ACCESS_DENIED
+
+[+] Attempting to map shares on 10.11.1.229
+
+ =================================================== 
+|    Password Policy Information for 10.11.1.229    |
+ =================================================== 
+[E] Unexpected error from polenum:
+Traceback (most recent call last):
+  File "/usr/bin/polenum", line 33, in <module>
+    from impacket.dcerpc import dcerpc_v4, dcerpc, transport, samr
+ImportError: cannot import name dcerpc_v4
+[+] Retieved partial password policy with rpcclient:
+
+
+
+ ============================= 
+|    Groups on 10.11.1.229    |
+ ============================= 
+
+[+] Getting builtin groups:
+
+[+] Getting builtin group memberships:
+
+[+] Getting local groups:
+
+[+] Getting local group memberships:
+
+[+] Getting domain groups:
+
+[+] Getting domain group memberships:
+
+ ====================================================================== 
+|    Users on 10.11.1.229 via RID cycling (RIDS: 500-550,1000-1050)    |
+ ====================================================================== 
+
+ ============================================ 
+|    Getting printer info for 10.11.1.229    |
+ ============================================ 
+Cannot connect to server.  Error was NT_STATUS_INVALID_PARAMETER
+
+
+enum4linux complete on Mon Jun 18 20:00:25 2018
+
+Starting enum4linux v0.8.9 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Mon Jun 18 20:00:26 2018
+
+ ========================== 
+|    Target Information    |
+ ========================== 
+Target ........... 10.11.1.230
+RID Range ........ 500-550,1000-1050
+Username ......... ''
+Password ......... ''
+Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
+
+
+ =================================================== 
+|    Enumerating Workgroup/Domain on 10.11.1.230    |
+ =================================================== 
+[+] Got domain/workgroup name: WORKGROUP
+
+ =========================================== 
+|    Nbtstat Information for 10.11.1.230    |
+ =========================================== 
+Looking up status of 10.11.1.230
+	KEVIN           <20> -         B <ACTIVE>  File Server Service
+	KEVIN           <00> -         B <ACTIVE>  Workstation Service
+	WORKGROUP       <00> - <GROUP> B <ACTIVE>  Domain/Workgroup Name
+	WORKGROUP       <1e> - <GROUP> B <ACTIVE>  Browser Service Elections
+
+	MAC Address = 00-50-56-B8-E8-71
+
+ ==================================== 
+|    Session Check on 10.11.1.230    |
+ ==================================== 
+[+] Server 10.11.1.230 allows sessions using username '', password ''
+
+ ========================================== 
+|    Getting domain SID for 10.11.1.230    |
+ ========================================== 
+could not initialise lsa pipe. Error was NT_STATUS_ACCESS_DENIED
+could not obtain sid from server
+error: NT_STATUS_ACCESS_DENIED
+[+] Can't determine if host is part of domain or part of a workgroup
+
+ ===================================== 
+|    OS information on 10.11.1.230    |
+ ===================================== 
+[+] Got OS info for 10.11.1.230 from smbclient: Domain=[KEVIN] OS=[Windows 7 Ultimate N 7600] Server=[Windows 7 Ultimate N 6.1]
+[E] Can't get OS info with srvinfo: NT_STATUS_ACCESS_DENIED
+
+ ============================ 
+|    Users on 10.11.1.230    |
+ ============================ 
+[E] Couldn't find users using querydispinfo: NT_STATUS_ACCESS_DENIED
+
+[E] Couldn't find users using enumdomusers: NT_STATUS_ACCESS_DENIED
+
+ ======================================== 
+|    Share Enumeration on 10.11.1.230    |
+ ======================================== 
+[E] Can't list shares: NT_STATUS_ACCESS_DENIED
+
+[+] Attempting to map shares on 10.11.1.230
+
+ =================================================== 
+|    Password Policy Information for 10.11.1.230    |
+ =================================================== 
+[E] Unexpected error from polenum:
+Traceback (most recent call last):
+  File "/usr/bin/polenum", line 33, in <module>
+    from impacket.dcerpc import dcerpc_v4, dcerpc, transport, samr
+ImportError: cannot import name dcerpc_v4
+[E] Failed to get password policy with rpcclient
+
+
+ ============================= 
+|    Groups on 10.11.1.230    |
+ ============================= 
+
+[+] Getting builtin groups:
+[E] Can't get builtin groups: NT_STATUS_ACCESS_DENIED
+
+[+] Getting builtin group memberships:
+
+[+] Getting local groups:
+[E] Can't get local groups: NT_STATUS_ACCESS_DENIED
+
+[+] Getting local group memberships:
+
+[+] Getting domain groups:
+[E] Can't get domain groups: NT_STATUS_ACCESS_DENIED
+
+[+] Getting domain group memberships:
+
+ ====================================================================== 
+|    Users on 10.11.1.230 via RID cycling (RIDS: 500-550,1000-1050)    |
+ ====================================================================== 
+[E] Couldn't get SID: NT_STATUS_ACCESS_DENIED.  RID cycling not possible.
+
+ ============================================ 
+|    Getting printer info for 10.11.1.230    |
+ ============================================ 
+could not initialise lsa pipe. Error was NT_STATUS_ACCESS_DENIED
+could not obtain sid from server
+error: NT_STATUS_ACCESS_DENIED
+
+
+enum4linux complete on Mon Jun 18 20:00:44 2018
+

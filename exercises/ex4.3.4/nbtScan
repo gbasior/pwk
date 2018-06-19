@@ -1,0 +1,75 @@
+Doing NBT name scan for addresses from 10.11.1.5
+
+IP address       NetBIOS Name     Server    User             MAC address      
+------------------------------------------------------------------------------
+10.11.1.5        ALICE            <server>  ALICE            00:50:56:b8:a6:0f
+Doing NBT name scan for addresses from 10.11.1.31
+
+IP address       NetBIOS Name     Server    User             MAC address      
+------------------------------------------------------------------------------
+10.11.1.31       RALPH            <server>  TESTER           00:50:56:b8:2b:56
+Doing NBT name scan for addresses from 10.11.1.73
+
+IP address       NetBIOS Name     Server    User             MAC address      
+------------------------------------------------------------------------------
+10.11.1.73       GAMMA            <server>  <unknown>        00:50:56:b8:dc:2d
+Doing NBT name scan for addresses from 10.11.1.128
+
+IP address       NetBIOS Name     Server    User             MAC address      
+------------------------------------------------------------------------------
+10.11.1.128      DJ               <server>  DJ               00:50:56:b8:ca:1b
+Doing NBT name scan for addresses from 10.11.1.145
+
+IP address       NetBIOS Name     Server    User             MAC address      
+------------------------------------------------------------------------------
+10.11.1.145      HELPDESK         <server>  <unknown>        00:50:56:b8:9f:36
+Doing NBT name scan for addresses from 10.11.1.202
+
+IP address       NetBIOS Name     Server    User             MAC address      
+------------------------------------------------------------------------------
+10.11.1.202      ORACLE           <server>  ORACLE           00:50:56:b8:be:09
+Doing NBT name scan for addresses from 10.11.1.218
+
+IP address       NetBIOS Name     Server    User             MAC address      
+------------------------------------------------------------------------------
+10.11.1.218      OBSERVER         <server>  <unknown>        00:50:56:b8:0c:64
+Doing NBT name scan for addresses from 10.11.1.220
+
+IP address       NetBIOS Name     Server    User             MAC address      
+------------------------------------------------------------------------------
+10.11.1.220      MASTER           <server>  <unknown>        00:50:56:b8:ff:8d
+Doing NBT name scan for addresses from 10.11.1.223
+
+IP address       NetBIOS Name     Server    User             MAC address      
+------------------------------------------------------------------------------
+10.11.1.223      JEFF             <server>  <unknown>        00:50:56:b8:c7:82
+Doing NBT name scan for addresses from 10.11.1.227
+
+IP address       NetBIOS Name     Server    User             MAC address      
+------------------------------------------------------------------------------
+10.11.1.227      JD               <server>  ADMINISTRATOR    00:50:56:b8:a3:c7
+Doing NBT name scan for addresses from 10.11.1.227
+
+IP address       NetBIOS Name     Server    User             MAC address      
+------------------------------------------------------------------------------
+10.11.1.227      JD               <server>  ADMINISTRATOR    00:50:56:b8:a3:c7
+Doing NBT name scan for addresses from 10.11.1.229
+
+IP address       NetBIOS Name     Server    User             MAC address      
+------------------------------------------------------------------------------
+10.11.1.229      MAIL             <server>  OFFSEC           00:50:56:b8:fe:21
+Doing NBT name scan for addresses from 10.11.1.229
+
+IP address       NetBIOS Name     Server    User             MAC address      
+------------------------------------------------------------------------------
+10.11.1.229      MAIL             <server>  OFFSEC           00:50:56:b8:fe:21
+Doing NBT name scan for addresses from 10.11.1.229
+
+IP address       NetBIOS Name     Server    User             MAC address      
+------------------------------------------------------------------------------
+10.11.1.229      MAIL             <server>  OFFSEC           00:50:56:b8:fe:21
+Doing NBT name scan for addresses from 10.11.1.230
+
+IP address       NetBIOS Name     Server    User             MAC address      
+------------------------------------------------------------------------------
+10.11.1.230      KEVIN            <server>  <unknown>        00:50:56:b8:e8:71
