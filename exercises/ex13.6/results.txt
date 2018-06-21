@@ -1,0 +1,1072 @@
+        ___
+       __H__
+ ___ ___[)]_____ ___ ___  {1.1.9#stable}
+|_ -| . ["]     | .'| . |
+|___|_  [,]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting at 19:50:04
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[19:50:04] [INFO] starting crawler
+[19:50:04] [INFO] searching for links with depth 1
+[19:50:05] [INFO] 1/1 links visited (100%)[19:50:05] [WARNING] no usable links found (with GET parameters)
+
+[*] shutting down at 19:50:05
+
+        ___
+       __H__
+ ___ ___[(]_____ ___ ___  {1.1.9#stable}
+|_ -| . [)]     | .'| . |
+|___|_  [,]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting at 19:50:06
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[19:50:06] [INFO] starting crawler
+[19:50:06] [INFO] searching for links with depth 1
+[19:50:09] [INFO] 1/1 links visited (100%)[19:50:09] [WARNING] no usable links found (with GET parameters)
+
+[*] shutting down at 19:50:09
+
+        ___
+       __H__
+ ___ ___["]_____ ___ ___  {1.1.9#stable}
+|_ -| . [.]     | .'| . |
+|___|_  ["]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting at 19:50:10
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[19:50:10] [INFO] starting crawler
+[19:50:10] [INFO] searching for links with depth 1
+[19:50:14] [INFO] heuristics detected web page charset 'ascii'
+[19:50:14] [INFO] 1/1 links visited (100%)[19:50:14] [WARNING] no usable links found (with GET parameters)
+
+[*] shutting down at 19:50:14
+
+        ___
+       __H__
+ ___ ___[']_____ ___ ___  {1.1.9#stable}
+|_ -| . [)]     | .'| . |
+|___|_  [.]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting at 19:50:15
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[19:50:15] [INFO] starting crawler
+[19:50:15] [INFO] searching for links with depth 1
+[19:50:18] [INFO] heuristics detected web page charset 'ascii'
+[19:50:18] [INFO] 1/1 links visited (100%)[19:50:18] [WARNING] no usable links found (with GET parameters)
+
+[*] shutting down at 19:50:18
+
+        ___
+       __H__
+ ___ ___[(]_____ ___ ___  {1.1.9#stable}
+|_ -| . [.]     | .'| . |
+|___|_  [.]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting at 19:50:19
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[19:50:19] [INFO] starting crawler
+[19:50:19] [INFO] searching for links with depth 1
+[19:50:20] [INFO] heuristics detected web page charset 'ascii'
+[19:50:20] [INFO] 1/1 links visited (100%)[19:50:20] [WARNING] no usable links found (with GET parameters)
+
+[*] shutting down at 19:50:20
+
+        ___
+       __H__
+ ___ ___["]_____ ___ ___  {1.1.9#stable}
+|_ -| . ["]     | .'| . |
+|___|_  [']_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting at 19:50:21
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[19:50:21] [INFO] starting crawler
+[19:50:21] [INFO] searching for links with depth 1
+[19:50:22] [INFO] 1/1 links visited (100%)do you want to store crawling results to a temporary file for eventual further processing with other tools [y/N] N
+[19:50:22] [INFO] sqlmap got a total of 12 targets
+URL 1:
+GET http://10.11.1.24:80/index.php?target=pages&page_id=about
+do you want to test this URL? [Y/n/q]
+> Y
+[19:50:22] [INFO] testing URL 'http://10.11.1.24:80/index.php?target=pages&page_id=about'
+[19:50:22] [INFO] using '/root/.sqlmap/output/results-06202018_0750pm.csv' as the CSV results file in multiple targets mode
+[19:50:22] [INFO] testing connection to the target URL
+[19:50:22] [INFO] testing if the target URL is stable
+[19:50:23] [INFO] target URL is stable
+[19:50:23] [INFO] testing if GET parameter 'target' is dynamic
+sqlmap got a 302 redirect to 'http://10.11.1.24/index.php?target=exceptions&no_page'. Do you want to follow? [Y/n] Y
+[19:50:24] [WARNING] GET parameter 'target' does not appear to be dynamic
+[19:50:25] [WARNING] heuristic (basic) test shows that GET parameter 'target' might not be injectable
+[19:50:26] [INFO] testing for SQL injection on GET parameter 'target'
+[19:50:26] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[19:52:33] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause'
+[19:53:45] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (NOT)'
+[19:55:48] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[19:57:25] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[19:58:24] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment) (NOT)'
+[20:00:04] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL)'
+[20:00:06] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL) (original value)'
+[20:00:08] [INFO] testing 'Boolean-based blind - Parameter replace (CASE)'
+[20:00:12] [INFO] testing 'Boolean-based blind - Parameter replace (CASE) (original value)'
+[20:00:15] [INFO] testing 'Generic UNION query (NULL) - 1 to 10 columns'
+[20:00:15] [WARNING] using unescaped version of the test because of zero knowledge of the back-end DBMS. You can try to explicitly set it with option '--dbms'
+[20:00:25] [INFO] target URL appears to be UNION injectable with 10 columns
+[20:00:25] [WARNING] applying generic concatenation (CONCAT)
+injection not exploitable with NULL values. Do you want to try with a random integer value for option '--union-char'? [Y/n] Y
+[20:01:26] [WARNING] if UNION based SQL injection is not detected, please consider forcing the back-end DBMS (e.g. '--dbms=mysql') 
+[20:09:09] [INFO] testing 'Generic UNION query (59) - 11 to 20 columns'
+it is not recommended to perform extended UNION tests if there is not at least one other (potential) technique found. Do you want to skip? [Y/n] Y
+[20:09:09] [INFO] testing 'Generic UNION query (59) - 21 to 30 columns'
+[20:09:09] [INFO] testing 'Generic UNION query (59) - 31 to 40 columns'
+[20:09:09] [INFO] testing 'Generic UNION query (59) - 41 to 50 columns'
+[20:09:09] [WARNING] GET parameter 'target' does not seem to be injectable
+[20:09:09] [WARNING] GET parameter 'page_id' does not appear to be dynamic
+[20:09:10] [WARNING] heuristic (basic) test shows that GET parameter 'page_id' might not be injectable
+[20:09:11] [INFO] testing for SQL injection on GET parameter 'page_id'
+[20:09:11] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[20:11:11] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause'
+[20:12:20] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (NOT)'
+[20:14:20] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[20:15:59] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[20:16:59] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment) (NOT)'
+[20:18:39] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL)'
+[20:18:41] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL) (original value)'
+[20:18:44] [INFO] testing 'Boolean-based blind - Parameter replace (CASE)'
+[20:18:46] [INFO] testing 'Boolean-based blind - Parameter replace (CASE) (original value)'
+[20:18:48] [INFO] testing 'Generic UNION query (59) - 1 to 10 columns'
+[20:26:27] [INFO] testing 'Generic UNION query (59) - 11 to 20 columns'
+[20:26:27] [INFO] testing 'Generic UNION query (59) - 21 to 30 columns'
+[20:26:27] [INFO] testing 'Generic UNION query (59) - 31 to 40 columns'
+[20:26:27] [INFO] testing 'Generic UNION query (59) - 41 to 50 columns'
+[20:26:27] [WARNING] GET parameter 'page_id' does not seem to be injectable
+[20:26:27] [WARNING] Host parameter 'Host' does not appear to be dynamic
+[20:26:28] [WARNING] heuristic (basic) test shows that Host parameter 'Host' might not be injectable
+[20:26:28] [INFO] testing for SQL injection on Host parameter 'Host'
+[20:26:28] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[20:27:47] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause'
+[20:28:32] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (NOT)'
+[20:29:51] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[20:30:55] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[20:31:36] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment) (NOT)'
+[20:32:38] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL)'
+[20:32:41] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL) (original value)'
+[20:32:43] [INFO] testing 'Boolean-based blind - Parameter replace (CASE)'
+[20:32:44] [INFO] testing 'Boolean-based blind - Parameter replace (CASE) (original value)'
+[20:32:46] [INFO] testing 'Generic UNION query (59) - 1 to 10 columns'
+[20:38:34] [INFO] testing 'Generic UNION query (59) - 11 to 20 columns'
+[20:38:34] [INFO] testing 'Generic UNION query (59) - 21 to 30 columns'
+[20:38:34] [INFO] testing 'Generic UNION query (59) - 31 to 40 columns'
+[20:38:34] [INFO] testing 'Generic UNION query (59) - 41 to 50 columns'
+[20:38:34] [WARNING] Host parameter 'Host' does not seem to be injectable
+[20:38:34] [WARNING] User-Agent parameter 'User-Agent' does not appear to be dynamic
+[20:38:34] [WARNING] heuristic (basic) test shows that User-Agent parameter 'User-Agent' might not be injectable
+[20:38:35] [INFO] testing for SQL injection on User-Agent parameter 'User-Agent'
+[20:38:35] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[20:39:52] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause'
+[20:40:36] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (NOT)'
+[20:41:54] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[20:42:53] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[20:43:33] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment) (NOT)'
+[20:44:32] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL)'
+[20:44:33] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL) (original value)'
+[20:44:35] [INFO] testing 'Boolean-based blind - Parameter replace (CASE)'
+[20:44:36] [INFO] testing 'Boolean-based blind - Parameter replace (CASE) (original value)'
+[20:44:39] [INFO] testing 'Generic UNION query (59) - 1 to 10 columns'
+[20:49:32] [INFO] testing 'Generic UNION query (59) - 11 to 20 columns'
+[20:49:32] [INFO] testing 'Generic UNION query (59) - 21 to 30 columns'
+[20:49:32] [INFO] testing 'Generic UNION query (59) - 31 to 40 columns'
+[20:49:32] [INFO] testing 'Generic UNION query (59) - 41 to 50 columns'
+[20:49:32] [WARNING] User-Agent parameter 'User-Agent' does not seem to be injectable
+[20:49:32] [WARNING] Referer parameter 'Referer' does not appear to be dynamic
+[20:49:32] [WARNING] heuristic (basic) test shows that Referer parameter 'Referer' might not be injectable
+[20:49:33] [INFO] testing for SQL injection on Referer parameter 'Referer'
+[20:49:33] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[20:50:52] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause'
+[20:51:39] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (NOT)'
+[20:52:54] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[20:53:54] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[20:54:34] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment) (NOT)'
+[20:55:41] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL)'
+[20:55:42] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL) (original value)'
+[20:55:43] [INFO] testing 'Boolean-based blind - Parameter replace (CASE)'
+[20:55:45] [INFO] testing 'Boolean-based blind - Parameter replace (CASE) (original value)'
+[20:55:46] [INFO] testing 'Generic UNION query (59) - 1 to 10 columns'
+[21:01:12] [INFO] testing 'Generic UNION query (59) - 11 to 20 columns'
+[21:01:12] [INFO] testing 'Generic UNION query (59) - 21 to 30 columns'
+[21:01:12] [INFO] testing 'Generic UNION query (59) - 31 to 40 columns'
+[21:01:12] [INFO] testing 'Generic UNION query (59) - 41 to 50 columns'
+[21:01:12] [WARNING] Referer parameter 'Referer' does not seem to be injectable
+[21:01:12] [ERROR] all tested parameters appear to be not injectable. Also, you can try to rerun by providing either a valid value for option '--string' (or '--regexp'). If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could retry with an option '--tamper' (e.g. '--tamper=space2comment'), skipping to the next URL
+URL 2:
+GET http://10.11.1.24:80/index.php?target=forms&name=contact_us
+do you want to test this URL? [Y/n/q]
+> Y
+[21:01:12] [INFO] testing URL 'http://10.11.1.24:80/index.php?target=forms&name=contact_us'
+[21:01:12] [INFO] testing connection to the target URL
+[21:01:13] [INFO] testing if the target URL is stable
+[21:01:14] [INFO] target URL is stable
+[21:01:14] [INFO] skipping previously processed GET parameter 'target'
+[21:01:14] [INFO] testing if GET parameter 'name' is dynamic
+sqlmap got a 302 redirect to 'http://10.11.1.24/index.php?target=exceptions&no_page'. Do you want to follow? [Y/n] Y
+[21:01:14] [INFO] confirming that GET parameter 'name' is dynamic
+[21:01:15] [INFO] GET parameter 'name' is dynamic
+[21:01:16] [WARNING] heuristic (basic) test shows that GET parameter 'name' might not be injectable
+[21:01:17] [INFO] testing for SQL injection on GET parameter 'name'
+[21:01:17] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[21:03:02] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause'
+[21:04:16] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (NOT)'
+[21:05:37] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[21:06:45] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[21:07:49] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment) (NOT)'
+[21:08:57] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL)'
+[21:08:59] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL) (original value)'
+[21:09:00] [INFO] testing 'Boolean-based blind - Parameter replace (CASE)'
+[21:09:02] [INFO] testing 'Boolean-based blind - Parameter replace (CASE) (original value)'
+[21:09:03] [INFO] testing 'Generic UNION query (NULL) - 1 to 10 columns'
+[21:09:03] [WARNING] using unescaped version of the test because of zero knowledge of the back-end DBMS. You can try to explicitly set it with option '--dbms'
+[21:09:48] [INFO] target URL appears to be UNION injectable with 3 columns
+[21:09:48] [WARNING] applying generic concatenation (CONCAT)
+injection not exploitable with NULL values. Do you want to try with a random integer value for option '--union-char'? [Y/n] Y
+[21:10:06] [WARNING] if UNION based SQL injection is not detected, please consider forcing the back-end DBMS (e.g. '--dbms=mysql') 
+[21:18:05] [INFO] testing 'Generic UNION query (30) - 11 to 20 columns'
+it is not recommended to perform extended UNION tests if there is not at least one other (potential) technique found. Do you want to skip? [Y/n] Y
+[21:18:05] [INFO] testing 'Generic UNION query (30) - 21 to 30 columns'
+[21:18:05] [INFO] testing 'Generic UNION query (30) - 31 to 40 columns'
+[21:18:05] [INFO] testing 'Generic UNION query (30) - 41 to 50 columns'
+[21:18:05] [WARNING] GET parameter 'name' does not seem to be injectable
+[21:18:05] [INFO] skipping previously processed Host parameter 'Host'
+[21:18:05] [INFO] skipping previously processed User-Agent parameter 'User-Agent'
+[21:18:05] [INFO] skipping previously processed Referer parameter 'Referer'
+[21:18:05] [ERROR] all tested parameters appear to be not injectable. Also, you can try to rerun by providing either a valid value for option '--string' (or '--regexp'). If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could retry with an option '--tamper' (e.g. '--tamper=space2comment'), skipping to the next URL
+[21:18:05] [INFO] skipping 'http://10.11.1.24:80/index.php?target=pages&page_id=privacy_policy'
+[21:18:05] [INFO] skipping 'http://10.11.1.24:80/index.php?target=sitemap'
+[21:18:05] [INFO] skipping 'http://10.11.1.24:80/index.php?target=search'
+[21:18:05] [INFO] skipping 'http://10.11.1.24:80/index.php?target=cart'
+URL 3:
+GET http://10.11.1.24:80/index.php?target=checkout&mode=customer_info
+do you want to test this URL? [Y/n/q]
+> Y
+[21:18:05] [INFO] testing URL 'http://10.11.1.24:80/index.php?target=checkout&mode=customer_info'
+[21:18:05] [INFO] testing connection to the target URL
+sqlmap got a 302 redirect to 'http://10.11.1.24/index.php?target=cart&csid=5fc310a9013b07e4414a545a61a4f248'. Do you want to follow? [Y/n] Y
+[21:18:06] [INFO] testing if the target URL is stable
+[21:18:07] [INFO] skipping previously processed GET parameter 'target'
+[21:18:07] [WARNING] GET parameter 'mode' does not appear to be dynamic
+[21:18:08] [WARNING] heuristic (basic) test shows that GET parameter 'mode' might not be injectable
+[21:18:09] [INFO] testing for SQL injection on GET parameter 'mode'
+[21:18:09] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[21:20:19] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause'
+[21:21:35] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (NOT)'
+[21:23:44] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[21:25:36] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[21:26:41] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment) (NOT)'
+[21:28:26] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL)'
+[21:28:29] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL) (original value)'
+[21:28:31] [INFO] testing 'Boolean-based blind - Parameter replace (CASE)'
+[21:28:33] [INFO] testing 'Boolean-based blind - Parameter replace (CASE) (original value)'
+[21:28:38] [INFO] testing 'Generic UNION query (NULL) - 1 to 10 columns'
+[21:28:38] [WARNING] using unescaped version of the test because of zero knowledge of the back-end DBMS. You can try to explicitly set it with option '--dbms'
+[21:28:51] [INFO] target URL appears to be UNION injectable with 9 columns
+[21:28:51] [WARNING] applying generic concatenation (CONCAT)
+injection not exploitable with NULL values. Do you want to try with a random integer value for option '--union-char'? [Y/n] Y
+[21:29:48] [WARNING] if UNION based SQL injection is not detected, please consider forcing the back-end DBMS (e.g. '--dbms=mysql') 
+[21:39:54] [INFO] testing 'Generic UNION query (42) - 11 to 20 columns'
+it is not recommended to perform extended UNION tests if there is not at least one other (potential) technique found. Do you want to skip? [Y/n] Y
+[21:39:54] [INFO] testing 'Generic UNION query (42) - 21 to 30 columns'
+[21:39:54] [INFO] testing 'Generic UNION query (42) - 31 to 40 columns'
+[21:39:54] [INFO] testing 'Generic UNION query (42) - 41 to 50 columns'
+[21:39:54] [WARNING] GET parameter 'mode' does not seem to be injectable
+[21:39:54] [INFO] skipping previously processed Host parameter 'Host'
+[21:39:54] [INFO] skipping previously processed User-Agent parameter 'User-Agent'
+[21:39:54] [INFO] skipping previously processed Referer parameter 'Referer'
+[21:39:54] [ERROR] all tested parameters appear to be not injectable. Also, you can try to rerun by providing either a valid value for option '--string' (or '--regexp'). If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could retry with an option '--tamper' (e.g. '--tamper=space2comment'), skipping to the next URL
+[21:39:54] [INFO] skipping 'http://10.11.1.24:80/index.php?target=auth&mode=login_form'
+[21:39:54] [INFO] skipping 'http://10.11.1.24:80/index.php?mode=catalog'
+[21:39:54] [INFO] skipping 'http://10.11.1.24:80/index.php?target=pages&page_id=what_is_cs'
+URL 4:
+GET http://10.11.1.24:80/index.php?target=topics&topic_id=9
+do you want to test this URL? [Y/n/q]
+> Y
+[21:39:54] [INFO] testing URL 'http://10.11.1.24:80/index.php?target=topics&topic_id=9'
+[21:39:54] [INFO] testing connection to the target URL
+[21:39:55] [INFO] testing if the target URL is stable
+[21:39:56] [INFO] target URL is stable
+[21:39:56] [INFO] skipping previously processed GET parameter 'target'
+[21:39:56] [INFO] testing if GET parameter 'topic_id' is dynamic
+sqlmap got a 302 redirect to 'http://10.11.1.24/index.php?target=exceptions&no_page'. Do you want to follow? [Y/n] Y
+[21:39:56] [INFO] confirming that GET parameter 'topic_id' is dynamic
+[21:39:57] [INFO] GET parameter 'topic_id' is dynamic
+[21:39:59] [WARNING] reflective value(s) found and filtering out
+[21:39:59] [ERROR] possible integer casting detected (e.g. "$topic_id=intval($_REQUEST['topic_id'])") at the back-end web application
+do you want to skip those kind of cases (and save scanning time)? [Y/n] Y
+[21:40:02] [INFO] skipping GET parameter 'topic_id'
+[21:40:02] [INFO] skipping previously processed Host parameter 'Host'
+[21:40:02] [INFO] skipping previously processed User-Agent parameter 'User-Agent'
+[21:40:02] [INFO] skipping previously processed Referer parameter 'Referer'
+[21:40:02] [ERROR] all tested parameters appear to be not injectable. Also, you can try to rerun by providing either a valid value for option '--string' (or '--regexp'). If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could retry with an option '--tamper' (e.g. '--tamper=space2comment'), skipping to the next URL
+[21:40:02] [INFO] skipping 'http://10.11.1.24:80/index.php?target=auth&mode=recover_password'
+[21:40:02] [INFO] you can find results of scanning in multiple targets mode inside the CSV file '/root/.sqlmap/output/results-06202018_0750pm.csv'
+
+[*] shutting down at 21:40:02
+
+        ___
+       __H__
+ ___ ___[(]_____ ___ ___  {1.1.9#stable}
+|_ -| . [.]     | .'| . |
+|___|_  [,]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting at 21:40:03
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[21:40:03] [INFO] starting crawler
+[21:40:03] [INFO] searching for links with depth 1
+[21:40:06] [INFO] heuristics detected web page charset 'ascii'
+[21:40:06] [INFO] 1/1 links visited (100%)[21:40:06] [WARNING] no usable links found (with GET parameters)
+
+[*] shutting down at 21:40:06
+
+        ___
+       __H__
+ ___ ___[)]_____ ___ ___  {1.1.9#stable}
+|_ -| . ["]     | .'| . |
+|___|_  [.]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting at 21:40:07
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[21:40:07] [INFO] starting crawler
+[21:40:07] [INFO] searching for links with depth 1
+[21:40:08] [INFO] 1/1 links visited (100%)[21:40:08] [WARNING] no usable links found (with GET parameters)
+
+[*] shutting down at 21:40:08
+
+        ___
+       __H__
+ ___ ___[,]_____ ___ ___  {1.1.9#stable}
+|_ -| . [']     | .'| . |
+|___|_  [(]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting at 21:40:09
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[21:40:09] [INFO] starting crawler
+[21:40:09] [INFO] searching for links with depth 1
+[21:40:12] [INFO] heuristics detected web page charset 'ascii'
+[21:40:12] [INFO] 1/1 links visited (100%)[21:40:12] [WARNING] no usable links found (with GET parameters)
+
+[*] shutting down at 21:40:12
+
+        ___
+       __H__
+ ___ ___[(]_____ ___ ___  {1.1.9#stable}
+|_ -| . [']     | .'| . |
+|___|_  ["]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting at 21:40:13
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[21:40:13] [INFO] starting crawler
+[21:40:13] [INFO] searching for links with depth 1
+[21:40:17] [INFO] heuristics detected web page charset 'ascii'
+[21:40:17] [INFO] 1/1 links visited (100%)[21:40:17] [WARNING] no usable links found (with GET parameters)
+
+[*] shutting down at 21:40:17
+
+        ___
+       __H__
+ ___ ___["]_____ ___ ___  {1.1.9#stable}
+|_ -| . [.]     | .'| . |
+|___|_  [']_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting at 21:40:17
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[21:40:17] [INFO] starting crawler
+[21:40:17] [INFO] searching for links with depth 1
+sqlmap got a 302 redirect to 'http://10.11.1.71:80/site/index.php/'. Do you want to follow? [Y/n] Y
+[21:40:18] [INFO] 1/1 links visited (100%)[21:40:18] [WARNING] no usable links found (with GET parameters)
+
+[*] shutting down at 21:40:18
+
+        ___
+       __H__
+ ___ ___[)]_____ ___ ___  {1.1.9#stable}
+|_ -| . ["]     | .'| . |
+|___|_  ["]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting at 21:40:19
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[21:40:19] [INFO] starting crawler
+[21:40:19] [INFO] searching for links with depth 1
+[21:40:19] [INFO] heuristics detected web page charset 'ascii'
+[21:40:19] [INFO] 1/1 links visited (100%)[21:40:19] [WARNING] no usable links found (with GET parameters)
+
+[*] shutting down at 21:40:20
+
+        ___
+       __H__
+ ___ ___[)]_____ ___ ___  {1.1.9#stable}
+|_ -| . ["]     | .'| . |
+|___|_  [)]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting at 21:40:20
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[21:40:20] [INFO] starting crawler
+[21:40:20] [INFO] searching for links with depth 1
+[21:40:21] [INFO] 1/1 links visited (100%)[21:40:21] [WARNING] no usable links found (with GET parameters)
+
+[*] shutting down at 21:40:21
+
+        ___
+       __H__
+ ___ ___[.]_____ ___ ___  {1.1.9#stable}
+|_ -| . [,]     | .'| . |
+|___|_  [(]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting at 21:40:22
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[21:40:22] [INFO] starting crawler
+[21:40:22] [INFO] searching for links with depth 1
+[21:40:25] [INFO] heuristics detected web page charset 'ascii'
+[21:40:25] [INFO] 1/1 links visited (100%)[21:40:25] [WARNING] no usable links found (with GET parameters)
+
+[*] shutting down at 21:40:25
+
+        ___
+       __H__
+ ___ ___[']_____ ___ ___  {1.1.9#stable}
+|_ -| . [(]     | .'| . |
+|___|_  [']_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting at 21:40:26
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[21:40:26] [INFO] starting crawler
+[21:40:26] [INFO] searching for links with depth 1
+[21:40:27] [INFO] heuristics detected web page charset 'ascii'
+[21:40:27] [INFO] 1/1 links visited (100%)[21:40:27] [WARNING] no usable links found (with GET parameters)
+
+[*] shutting down at 21:40:27
+
+        ___
+       __H__
+ ___ ___[)]_____ ___ ___  {1.1.9#stable}
+|_ -| . ["]     | .'| . |
+|___|_  [)]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting at 21:40:28
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[21:40:28] [INFO] starting crawler
+[21:40:28] [INFO] searching for links with depth 1
+[21:40:28] [INFO] heuristics detected web page charset 'windows-1252'
+[21:40:28] [INFO] 1/1 links visited (100%)[21:40:28] [WARNING] no usable links found (with GET parameters)
+
+[*] shutting down at 21:40:28
+
+        ___
+       __H__
+ ___ ___["]_____ ___ ___  {1.1.9#stable}
+|_ -| . [)]     | .'| . |
+|___|_  [']_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting at 21:40:29
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[21:40:29] [INFO] starting crawler
+[21:40:29] [INFO] searching for links with depth 1
+sqlmap got a 302 redirect to 'https://10.11.1.217/'. Do you want to follow? [Y/n] Y
+[21:40:31] [INFO] heuristics detected web page charset 'ascii'
+[21:40:31] [INFO] 1/1 links visited (100%)[21:40:31] [WARNING] no usable links found (with GET parameters)
+
+[*] shutting down at 21:40:31
+
+        ___
+       __H__
+ ___ ___[,]_____ ___ ___  {1.1.9#stable}
+|_ -| . [)]     | .'| . |
+|___|_  [,]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting at 21:40:32
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[21:40:32] [INFO] starting crawler
+[21:40:32] [INFO] searching for links with depth 1
+[21:40:32] [INFO] 1/1 links visited (100%)[21:40:32] [WARNING] no usable links found (with GET parameters)
+
+[*] shutting down at 21:40:32
+
+        ___
+       __H__
+ ___ ___[.]_____ ___ ___  {1.1.9#stable}
+|_ -| . [,]     | .'| . |
+|___|_  [.]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting at 21:40:34
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[21:40:34] [INFO] starting crawler
+[21:40:34] [INFO] searching for links with depth 1
+[21:40:39] [INFO] 1/1 links visited (100%)do you want to store crawling results to a temporary file for eventual further processing with other tools [y/N] N
+[21:40:39] [INFO] sqlmap got a total of 4 targets
+URL 1:
+GET http://10.11.1.223:80?C=N;O=D
+do you want to test this URL? [Y/n/q]
+> Y
+[21:40:39] [INFO] testing URL 'http://10.11.1.223:80?C=N;O=D'
+[21:40:39] [INFO] using '/root/.sqlmap/output/results-06202018_0940pm.csv' as the CSV results file in multiple targets mode
+[21:40:39] [INFO] testing connection to the target URL
+[21:40:39] [INFO] testing if the target URL is stable
+[21:40:40] [INFO] target URL is stable
+[21:40:40] [INFO] testing if GET parameter 'C' is dynamic
+[21:40:40] [WARNING] GET parameter 'C' does not appear to be dynamic
+[21:40:40] [WARNING] heuristic (basic) test shows that GET parameter 'C' might not be injectable
+[21:40:41] [INFO] testing for SQL injection on GET parameter 'C'
+[21:40:41] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[21:40:58] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause'
+[21:41:16] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (NOT)'
+[21:41:34] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[21:41:51] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[21:42:04] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment) (NOT)'
+[21:42:21] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL)'
+[21:42:21] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL) (original value)'
+[21:42:21] [INFO] testing 'Boolean-based blind - Parameter replace (CASE)'
+[21:42:22] [INFO] testing 'Boolean-based blind - Parameter replace (CASE) (original value)'
+[21:42:22] [INFO] testing 'Generic UNION query (NULL) - 1 to 10 columns'
+[21:42:22] [WARNING] using unescaped version of the test because of zero knowledge of the back-end DBMS. You can try to explicitly set it with option '--dbms'
+[21:43:55] [INFO] testing 'Generic UNION query (random number) - 1 to 10 columns'
+[21:45:28] [INFO] testing 'Generic UNION query (NULL) - 11 to 20 columns'
+it is not recommended to perform extended UNION tests if there is not at least one other (potential) technique found. Do you want to skip? [Y/n] Y
+[21:45:28] [INFO] testing 'Generic UNION query (random number) - 11 to 20 columns'
+[21:45:28] [INFO] testing 'Generic UNION query (NULL) - 21 to 30 columns'
+[21:45:28] [INFO] testing 'Generic UNION query (random number) - 21 to 30 columns'
+[21:45:28] [INFO] testing 'Generic UNION query (NULL) - 31 to 40 columns'
+[21:45:28] [INFO] testing 'Generic UNION query (random number) - 31 to 40 columns'
+[21:45:28] [INFO] testing 'Generic UNION query (NULL) - 41 to 50 columns'
+[21:45:28] [INFO] testing 'Generic UNION query (random number) - 41 to 50 columns'
+[21:45:28] [WARNING] GET parameter 'C' does not seem to be injectable
+[21:45:28] [INFO] testing if Host parameter 'Host' is dynamic
+[21:45:28] [WARNING] Host parameter 'Host' does not appear to be dynamic
+[21:45:28] [WARNING] heuristic (basic) test shows that Host parameter 'Host' might not be injectable
+[21:45:28] [INFO] testing for SQL injection on Host parameter 'Host'
+[21:45:28] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[21:45:29] [WARNING] reflective value(s) found and filtering out
+[21:45:50] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause'
+[21:46:07] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (NOT)'
+[21:46:28] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[21:46:43] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[21:47:00] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment) (NOT)'
+[21:47:15] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL)'
+[21:47:16] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL) (original value)'
+[21:47:16] [INFO] testing 'Boolean-based blind - Parameter replace (CASE)'
+[21:47:16] [INFO] testing 'Boolean-based blind - Parameter replace (CASE) (original value)'
+[21:47:17] [INFO] testing 'Generic UNION query (NULL) - 1 to 10 columns'
+[21:48:57] [INFO] testing 'Generic UNION query (random number) - 1 to 10 columns'
+[21:50:37] [INFO] testing 'Generic UNION query (NULL) - 11 to 20 columns'
+[21:50:37] [INFO] testing 'Generic UNION query (random number) - 11 to 20 columns'
+[21:50:37] [INFO] testing 'Generic UNION query (NULL) - 21 to 30 columns'
+[21:50:37] [INFO] testing 'Generic UNION query (random number) - 21 to 30 columns'
+[21:50:37] [INFO] testing 'Generic UNION query (NULL) - 31 to 40 columns'
+[21:50:37] [INFO] testing 'Generic UNION query (random number) - 31 to 40 columns'
+[21:50:37] [INFO] testing 'Generic UNION query (NULL) - 41 to 50 columns'
+[21:50:37] [INFO] testing 'Generic UNION query (random number) - 41 to 50 columns'
+[21:50:37] [WARNING] Host parameter 'Host' does not seem to be injectable
+[21:50:37] [INFO] testing if User-Agent parameter 'User-Agent' is dynamic
+[21:50:38] [WARNING] User-Agent parameter 'User-Agent' does not appear to be dynamic
+[21:50:38] [WARNING] heuristic (basic) test shows that User-Agent parameter 'User-Agent' might not be injectable
+[21:50:38] [INFO] testing for SQL injection on User-Agent parameter 'User-Agent'
+[21:50:38] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[21:50:58] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause'
+[21:51:15] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (NOT)'
+[21:51:35] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[21:51:50] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[21:52:05] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment) (NOT)'
+[21:52:19] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL)'
+[21:52:20] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL) (original value)'
+[21:52:20] [INFO] testing 'Boolean-based blind - Parameter replace (CASE)'
+[21:52:20] [INFO] testing 'Boolean-based blind - Parameter replace (CASE) (original value)'
+[21:52:21] [INFO] testing 'Generic UNION query (NULL) - 1 to 10 columns'
+[21:53:53] [INFO] testing 'Generic UNION query (random number) - 1 to 10 columns'
+[21:55:24] [INFO] testing 'Generic UNION query (NULL) - 11 to 20 columns'
+[21:55:24] [INFO] testing 'Generic UNION query (random number) - 11 to 20 columns'
+[21:55:24] [INFO] testing 'Generic UNION query (NULL) - 21 to 30 columns'
+[21:55:26] [INFO] testing 'Generic UNION query (random number) - 21 to 30 columns'
+[21:55:26] [INFO] testing 'Generic UNION query (NULL) - 31 to 40 columns'
+[21:55:26] [INFO] testing 'Generic UNION query (random number) - 31 to 40 columns'
+[21:55:26] [INFO] testing 'Generic UNION query (NULL) - 41 to 50 columns'
+[21:55:26] [INFO] testing 'Generic UNION query (random number) - 41 to 50 columns'
+[21:55:26] [WARNING] User-Agent parameter 'User-Agent' does not seem to be injectable
+[21:55:26] [INFO] testing if Referer parameter 'Referer' is dynamic
+[21:55:27] [WARNING] Referer parameter 'Referer' does not appear to be dynamic
+[21:55:27] [WARNING] heuristic (basic) test shows that Referer parameter 'Referer' might not be injectable
+[21:55:27] [INFO] testing for SQL injection on Referer parameter 'Referer'
+[21:55:27] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[21:55:45] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause'
+[21:56:02] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (NOT)'
+[21:56:20] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[21:56:37] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[21:56:50] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment) (NOT)'
+[21:57:05] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL)'
+[21:57:05] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL) (original value)'
+[21:57:05] [INFO] testing 'Boolean-based blind - Parameter replace (CASE)'
+[21:57:06] [INFO] testing 'Boolean-based blind - Parameter replace (CASE) (original value)'
+[21:57:06] [INFO] testing 'Generic UNION query (NULL) - 1 to 10 columns'
+[21:58:40] [INFO] testing 'Generic UNION query (random number) - 1 to 10 columns'
+[22:00:16] [INFO] testing 'Generic UNION query (NULL) - 11 to 20 columns'
+[22:00:16] [INFO] testing 'Generic UNION query (random number) - 11 to 20 columns'
+[22:00:16] [INFO] testing 'Generic UNION query (NULL) - 21 to 30 columns'
+[22:00:16] [INFO] testing 'Generic UNION query (random number) - 21 to 30 columns'
+[22:00:16] [INFO] testing 'Generic UNION query (NULL) - 31 to 40 columns'
+[22:00:16] [INFO] testing 'Generic UNION query (random number) - 31 to 40 columns'
+[22:00:16] [INFO] testing 'Generic UNION query (NULL) - 41 to 50 columns'
+[22:00:16] [INFO] testing 'Generic UNION query (random number) - 41 to 50 columns'
+[22:00:16] [WARNING] Referer parameter 'Referer' does not seem to be injectable
+[22:00:16] [ERROR] all tested parameters appear to be not injectable. Also, you can try to rerun by providing either a valid value for option '--string' (or '--regexp'). If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could retry with an option '--tamper' (e.g. '--tamper=space2comment'), skipping to the next URL
+[22:00:16] [INFO] skipping 'http://10.11.1.223:80?C=M;O=A'
+[22:00:16] [INFO] skipping 'http://10.11.1.223:80?C=S;O=A'
+[22:00:16] [INFO] skipping 'http://10.11.1.223:80?C=D;O=A'
+[22:00:16] [INFO] you can find results of scanning in multiple targets mode inside the CSV file '/root/.sqlmap/output/results-06202018_0940pm.csv'
+
+[*] shutting down at 22:00:16
+
+        ___
+       __H__
+ ___ ___[)]_____ ___ ___  {1.1.9#stable}
+|_ -| . ["]     | .'| . |
+|___|_  [,]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting at 22:00:17
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[22:00:17] [INFO] starting crawler
+[22:00:17] [INFO] searching for links with depth 1
+[22:00:20] [INFO] heuristics detected web page charset 'ascii'
+[22:00:20] [INFO] 1/1 links visited (100%)[22:00:20] [WARNING] no usable links found (with GET parameters)
+
+[*] shutting down at 22:00:20
+
+        ___
+       __H__
+ ___ ___[']_____ ___ ___  {1.1.9#stable}
+|_ -| . [.]     | .'| . |
+|___|_  [)]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting at 22:00:21
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[22:00:21] [INFO] starting crawler
+[22:00:21] [INFO] searching for links with depth 1
+[22:00:24] [INFO] 1/1 links visited (100%)[22:00:24] [WARNING] no usable links found (with GET parameters)
+
+[*] shutting down at 22:00:24
+
+        ___
+       __H__
+ ___ ___[)]_____ ___ ___  {1.1.9#stable}
+|_ -| . [,]     | .'| . |
+|___|_  ["]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting at 22:00:25
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[22:00:25] [INFO] starting crawler
+[22:00:25] [INFO] searching for links with depth 1
+[22:00:25] [INFO] 1/1 links visited (100%)do you want to store crawling results to a temporary file for eventual further processing with other tools [y/N] N
+[22:00:25] [INFO] sqlmap got a total of 5 targets
+URL 1:
+GET http://10.11.1.234/?p=1
+do you want to test this URL? [Y/n/q]
+> Y
+[22:00:25] [INFO] testing URL 'http://10.11.1.234/?p=1'
+[22:00:25] [INFO] using '/root/.sqlmap/output/results-06202018_1000pm.csv' as the CSV results file in multiple targets mode
+[22:00:25] [INFO] testing connection to the target URL
+[22:00:26] [INFO] testing if the target URL is stable
+[22:00:27] [INFO] target URL is stable
+[22:00:27] [INFO] testing if GET parameter 'p' is dynamic
+[22:00:27] [INFO] confirming that GET parameter 'p' is dynamic
+[22:00:28] [WARNING] GET parameter 'p' does not appear to be dynamic
+[22:00:28] [WARNING] heuristic (basic) test shows that GET parameter 'p' might not be injectable
+[22:00:29] [INFO] testing for SQL injection on GET parameter 'p'
+[22:00:29] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[22:01:19] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause'
+[22:01:56] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (NOT)'
+[22:02:40] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[22:03:16] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[22:03:48] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment) (NOT)'
+[22:04:24] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL)'
+[22:04:24] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL) (original value)'
+[22:04:25] [INFO] testing 'Boolean-based blind - Parameter replace (CASE)'
+[22:04:26] [INFO] testing 'Boolean-based blind - Parameter replace (CASE) (original value)'
+[22:04:27] [INFO] testing 'Generic UNION query (NULL) - 1 to 10 columns'
+[22:04:27] [WARNING] using unescaped version of the test because of zero knowledge of the back-end DBMS. You can try to explicitly set it with option '--dbms'
+[22:06:14] [WARNING] turning off pre-connect mechanism because of connection reset(s)
+[22:06:14] [WARNING] there is a possibility that the target (or WAF/IPS/IDS) is resetting 'suspicious' requests
+[22:06:14] [CRITICAL] connection reset to the target URL. sqlmap is going to retry the request(s)
+[22:06:14] [CRITICAL] connection reset to the target URL
+[22:06:14] [CRITICAL] unable to connect to the target URL ('Connection refused'). sqlmap is going to retry the request(s)
+[22:08:48] [INFO] testing 'Generic UNION query (random number) - 1 to 10 columns'
+[22:13:26] [INFO] testing 'Generic UNION query (NULL) - 11 to 20 columns'
+it is not recommended to perform extended UNION tests if there is not at least one other (potential) technique found. Do you want to skip? [Y/n] Y
+[22:13:26] [INFO] testing 'Generic UNION query (random number) - 11 to 20 columns'
+[22:13:26] [INFO] testing 'Generic UNION query (NULL) - 21 to 30 columns'
+[22:13:26] [INFO] testing 'Generic UNION query (random number) - 21 to 30 columns'
+[22:13:26] [INFO] testing 'Generic UNION query (NULL) - 31 to 40 columns'
+[22:13:26] [INFO] testing 'Generic UNION query (random number) - 31 to 40 columns'
+[22:13:26] [INFO] testing 'Generic UNION query (NULL) - 41 to 50 columns'
+[22:13:26] [INFO] testing 'Generic UNION query (random number) - 41 to 50 columns'
+[22:13:26] [WARNING] GET parameter 'p' does not seem to be injectable
+[22:13:26] [INFO] testing if Host parameter 'Host' is dynamic
+[22:13:27] [WARNING] Host parameter 'Host' does not appear to be dynamic
+[22:13:27] [WARNING] heuristic (basic) test shows that Host parameter 'Host' might not be injectable
+[22:13:28] [INFO] testing for SQL injection on Host parameter 'Host'
+[22:13:28] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[22:14:31] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause'
+[22:15:26] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (NOT)'
+[22:16:15] [CRITICAL] connection dropped or unknown HTTP status code received. Try to force the HTTP User-Agent header with option '--user-agent' or switch '--random-agent'. sqlmap is going to retry the request(s)
+[22:16:15] [CRITICAL] unable to connect to the target URL ('Connection refused')
+[22:16:16] [CRITICAL] unable to connect to the target URL ('Connection refused'). sqlmap is going to retry the request(s)
+[22:16:17] [INFO] Host parameter 'Host' appears to be 'OR boolean-based blind - WHERE or HAVING clause (NOT)' injectable (with --string="Recent Posts")
+[22:16:17] [INFO] testing 'Generic UNION query (NULL) - 1 to 20 columns'
+[22:16:17] [INFO] testing 'Generic UNION query (random number) - 1 to 20 columns'
+[22:16:17] [INFO] testing 'Generic UNION query (NULL) - 21 to 40 columns'
+[22:16:17] [INFO] testing 'Generic UNION query (random number) - 21 to 40 columns'
+[22:16:17] [INFO] testing 'Generic UNION query (NULL) - 41 to 60 columns'
+[22:16:17] [INFO] testing 'Generic UNION query (random number) - 41 to 60 columns'
+[22:16:17] [INFO] testing 'Generic UNION query (NULL) - 61 to 80 columns'
+[22:16:17] [INFO] testing 'Generic UNION query (random number) - 61 to 80 columns'
+[22:16:17] [INFO] testing 'Generic UNION query (NULL) - 81 to 100 columns'
+[22:16:17] [INFO] testing 'Generic UNION query (random number) - 81 to 100 columns'
+[22:16:17] [WARNING] in OR boolean-based injection cases, please consider usage of switch '--drop-set-cookie' if you experience any problems during data retrieval
+[22:16:17] [INFO] checking if the injection point on Host parameter 'Host' is a false positive
+[22:16:18] [WARNING] false positive or unexploitable injection point detected
+[22:16:18] [WARNING] Host parameter 'Host' does not seem to be injectable
+[22:16:18] [INFO] testing if User-Agent parameter 'User-Agent' is dynamic
+[22:16:19] [WARNING] User-Agent parameter 'User-Agent' does not appear to be dynamic
+[22:16:19] [WARNING] heuristic (basic) test shows that User-Agent parameter 'User-Agent' might not be injectable
+[22:16:20] [INFO] testing for SQL injection on User-Agent parameter 'User-Agent'
+[22:16:20] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[22:17:23] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause'
+[22:18:18] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (NOT)'
+[22:19:19] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[22:20:10] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[22:20:56] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment) (NOT)'
+[22:21:47] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL)'
+[22:21:48] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL) (original value)'
+[22:21:49] [INFO] testing 'Boolean-based blind - Parameter replace (CASE)'
+[22:21:50] [INFO] testing 'Boolean-based blind - Parameter replace (CASE) (original value)'
+[22:21:52] [INFO] testing 'Generic UNION query (NULL) - 1 to 10 columns'
+[22:26:13] [CRITICAL] connection reset to the target URL. sqlmap is going to retry the request(s)
+[22:26:14] [CRITICAL] unable to connect to the target URL ('Connection refused')
+[22:26:14] [CRITICAL] unable to connect to the target URL ('Connection refused'). sqlmap is going to retry the request(s)
+[22:26:21] [INFO] target URL appears to be UNION injectable with 2 columns
+[22:26:21] [WARNING] applying generic concatenation (CONCAT)
+injection not exploitable with NULL values. Do you want to try with a random integer value for option '--union-char'? [Y/n] Y
+[22:26:30] [WARNING] if UNION based SQL injection is not detected, please consider forcing the back-end DBMS (e.g. '--dbms=mysql') 
+[22:27:05] [INFO] testing 'Generic UNION query (91) - 11 to 20 columns'
+[22:27:05] [INFO] testing 'Generic UNION query (91) - 21 to 30 columns'
+[22:27:05] [INFO] testing 'Generic UNION query (91) - 31 to 40 columns'
+[22:27:05] [INFO] testing 'Generic UNION query (91) - 41 to 50 columns'
+[22:27:05] [WARNING] User-Agent parameter 'User-Agent' does not seem to be injectable
+[22:27:05] [INFO] testing if Referer parameter 'Referer' is dynamic
+[22:27:06] [WARNING] Referer parameter 'Referer' does not appear to be dynamic
+[22:27:06] [WARNING] heuristic (basic) test shows that Referer parameter 'Referer' might not be injectable
+[22:27:07] [INFO] testing for SQL injection on Referer parameter 'Referer'
+[22:27:07] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[22:28:09] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause'
+[22:29:01] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (NOT)'
+[22:30:04] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[22:30:56] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[22:31:42] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment) (NOT)'
+[22:32:31] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL)'
+[22:32:34] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL) (original value)'
+[22:32:35] [INFO] testing 'Boolean-based blind - Parameter replace (CASE)'
+[22:32:36] [INFO] testing 'Boolean-based blind - Parameter replace (CASE) (original value)'
+[22:32:37] [INFO] testing 'Generic UNION query (91) - 1 to 10 columns'
+[22:36:15] [CRITICAL] connection reset to the target URL. sqlmap is going to retry the request(s)
+[22:36:15] [CRITICAL] unable to connect to the target URL ('Connection refused')
+[22:36:15] [CRITICAL] unable to connect to the target URL ('Connection refused'). sqlmap is going to retry the request(s)
+[22:37:44] [INFO] testing 'Generic UNION query (91) - 11 to 20 columns'
+[22:37:44] [INFO] testing 'Generic UNION query (91) - 21 to 30 columns'
+[22:37:44] [INFO] testing 'Generic UNION query (91) - 31 to 40 columns'
+[22:37:44] [INFO] testing 'Generic UNION query (91) - 41 to 50 columns'
+[22:37:44] [WARNING] Referer parameter 'Referer' does not seem to be injectable
+[22:37:44] [ERROR] all tested parameters appear to be not injectable. Also, you can try to rerun by providing a valid value for option '--string' as perhaps the string you have chosen does not match exclusively True responses. If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could retry with an option '--tamper' (e.g. '--tamper=space2comment'), skipping to the next URL
+[22:37:44] [WARNING] HTTP error codes detected during run:
+400 (Bad Request) - 1 times, 500 (Internal Server Error) - 2 times, 404 (Not Found) - 648 times
+[22:37:44] [INFO] skipping 'http://10.11.1.234/?p=1#more-1'
+URL 2:
+GET http://10.11.1.234/?cat=1
+do you want to test this URL? [Y/n/q]
+> Y
+[22:37:44] [INFO] testing URL 'http://10.11.1.234/?cat=1'
+[22:37:45] [INFO] testing connection to the target URL
+[22:37:45] [INFO] testing if the target URL is stable
+[22:37:46] [INFO] target URL is stable
+[22:37:46] [INFO] testing if GET parameter 'cat' is dynamic
+[22:37:47] [INFO] confirming that GET parameter 'cat' is dynamic
+[22:37:47] [WARNING] GET parameter 'cat' does not appear to be dynamic
+[22:37:48] [WARNING] heuristic (basic) test shows that GET parameter 'cat' might not be injectable
+[22:37:49] [INFO] testing for SQL injection on GET parameter 'cat'
+[22:37:49] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[22:38:47] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause'
+[22:39:42] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (NOT)'
+[22:40:43] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[22:41:31] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[22:42:20] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment) (NOT)'
+[22:43:09] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL)'
+[22:43:10] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL) (original value)'
+[22:43:11] [INFO] testing 'Boolean-based blind - Parameter replace (CASE)'
+[22:43:12] [INFO] testing 'Boolean-based blind - Parameter replace (CASE) (original value)'
+[22:43:13] [INFO] testing 'Generic UNION query (NULL) - 1 to 10 columns'
+[22:43:13] [WARNING] using unescaped version of the test because of zero knowledge of the back-end DBMS. You can try to explicitly set it with option '--dbms'
+[22:46:13] [WARNING] there is a possibility that the target (or WAF/IPS/IDS) is resetting 'suspicious' requests
+[22:46:13] [CRITICAL] connection reset to the target URL. sqlmap is going to retry the request(s)
+[22:46:14] [CRITICAL] unable to connect to the target URL ('Connection refused')
+[22:46:16] [CRITICAL] unable to connect to the target URL ('Connection refused'). sqlmap is going to retry the request(s)
+[22:46:20] [INFO] target URL appears to be UNION injectable with 3 columns
+[22:46:20] [WARNING] applying generic concatenation (CONCAT)
+injection not exploitable with NULL values. Do you want to try with a random integer value for option '--union-char'? [Y/n] Y
+[22:46:33] [WARNING] if UNION based SQL injection is not detected, please consider forcing the back-end DBMS (e.g. '--dbms=mysql') 
+[22:48:04] [INFO] testing 'Generic UNION query (26) - 11 to 20 columns'
+it is not recommended to perform extended UNION tests if there is not at least one other (potential) technique found. Do you want to skip? [Y/n] Y
+[22:48:04] [INFO] testing 'Generic UNION query (26) - 21 to 30 columns'
+[22:48:04] [INFO] testing 'Generic UNION query (26) - 31 to 40 columns'
+[22:48:04] [INFO] testing 'Generic UNION query (26) - 41 to 50 columns'
+[22:48:04] [WARNING] GET parameter 'cat' does not seem to be injectable
+[22:48:04] [INFO] skipping previously processed Host parameter 'Host'
+[22:48:04] [INFO] skipping previously processed User-Agent parameter 'User-Agent'
+[22:48:04] [INFO] skipping previously processed Referer parameter 'Referer'
+[22:48:04] [ERROR] all tested parameters appear to be not injectable. Also, you can try to rerun by providing either a valid value for option '--string' (or '--regexp'). If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could retry with an option '--tamper' (e.g. '--tamper=space2comment'), skipping to the next URL
+[22:48:04] [WARNING] HTTP error codes detected during run:
+404 (Not Found) - 527 times
+URL 3:
+GET http://10.11.1.234/?author=1
+do you want to test this URL? [Y/n/q]
+> Y
+[22:48:04] [INFO] testing URL 'http://10.11.1.234/?author=1'
+[22:48:04] [INFO] testing connection to the target URL
+[22:48:05] [INFO] testing if the target URL is stable
+[22:48:06] [INFO] target URL is stable
+[22:48:06] [INFO] testing if GET parameter 'author' is dynamic
+[22:48:06] [INFO] confirming that GET parameter 'author' is dynamic
+[22:48:07] [WARNING] GET parameter 'author' does not appear to be dynamic
+[22:48:07] [WARNING] heuristic (basic) test shows that GET parameter 'author' might not be injectable
+[22:48:08] [INFO] testing for SQL injection on GET parameter 'author'
+[22:48:08] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[22:49:10] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause'
+[22:49:11] [WARNING] reflective value(s) found and filtering out
+[22:50:05] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (NOT)'
+[22:51:09] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[22:52:03] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[22:52:51] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment) (NOT)'
+[22:53:43] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL)'
+[22:53:44] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL) (original value)'
+[22:53:45] [INFO] testing 'Boolean-based blind - Parameter replace (CASE)'
+[22:53:46] [INFO] testing 'Boolean-based blind - Parameter replace (CASE) (original value)'
+[22:53:48] [INFO] testing 'Generic UNION query (NULL) - 1 to 10 columns'
+[22:53:48] [WARNING] using unescaped version of the test because of zero knowledge of the back-end DBMS. You can try to explicitly set it with option '--dbms'
+[22:56:15] [WARNING] there is a possibility that the target (or WAF/IPS/IDS) is resetting 'suspicious' requests
+[22:56:15] [CRITICAL] connection reset to the target URL. sqlmap is going to retry the request(s)
+[22:56:15] [CRITICAL] unable to connect to the target URL ('Connection refused')
+[22:56:15] [CRITICAL] unable to connect to the target URL ('Connection refused'). sqlmap is going to retry the request(s)
+[22:58:59] [INFO] testing 'Generic UNION query (random number) - 1 to 10 columns'
+[23:04:14] [INFO] testing 'Generic UNION query (NULL) - 11 to 20 columns'
+it is not recommended to perform extended UNION tests if there is not at least one other (potential) technique found. Do you want to skip? [Y/n] Y
+[23:04:14] [INFO] testing 'Generic UNION query (random number) - 11 to 20 columns'
+[23:04:14] [INFO] testing 'Generic UNION query (NULL) - 21 to 30 columns'
+[23:04:14] [INFO] testing 'Generic UNION query (random number) - 21 to 30 columns'
+[23:04:14] [INFO] testing 'Generic UNION query (NULL) - 31 to 40 columns'
+[23:04:14] [INFO] testing 'Generic UNION query (random number) - 31 to 40 columns'
+[23:04:14] [INFO] testing 'Generic UNION query (NULL) - 41 to 50 columns'
+[23:04:14] [INFO] testing 'Generic UNION query (random number) - 41 to 50 columns'
+[23:04:14] [WARNING] GET parameter 'author' does not seem to be injectable
+[23:04:14] [INFO] skipping previously processed Host parameter 'Host'
+[23:04:14] [INFO] skipping previously processed User-Agent parameter 'User-Agent'
+[23:04:14] [INFO] skipping previously processed Referer parameter 'Referer'
+[23:04:14] [ERROR] all tested parameters appear to be not injectable. Also, you can try to rerun by providing either a valid value for option '--string' (or '--regexp'). If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could retry with an option '--tamper' (e.g. '--tamper=space2comment'), skipping to the next URL
+[23:04:14] [WARNING] HTTP error codes detected during run:
+500 (Internal Server Error) - 1 times, 404 (Not Found) - 6 times
+URL 4:
+GET http://10.11.1.234/?m=201512
+do you want to test this URL? [Y/n/q]
+> Y
+[23:04:14] [INFO] testing URL 'http://10.11.1.234/?m=201512'
+[23:04:14] [INFO] testing connection to the target URL
+[23:04:14] [INFO] testing if the target URL is stable
+[23:04:15] [INFO] target URL is stable
+[23:04:15] [INFO] testing if GET parameter 'm' is dynamic
+[23:04:16] [INFO] confirming that GET parameter 'm' is dynamic
+[23:04:16] [WARNING] GET parameter 'm' does not appear to be dynamic
+[23:04:17] [WARNING] heuristic (basic) test shows that GET parameter 'm' might not be injectable
+[23:04:17] [INFO] testing for SQL injection on GET parameter 'm'
+[23:04:17] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[23:05:18] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause'
+[23:06:09] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (NOT)'
+[23:06:16] [WARNING] there is a possibility that the target (or WAF/IPS/IDS) is resetting 'suspicious' requests
+[23:06:16] [CRITICAL] connection reset to the target URL. sqlmap is going to retry the request(s)
+[23:06:16] [CRITICAL] unable to connect to the target URL ('Connection refused')
+[23:06:17] [CRITICAL] unable to connect to the target URL ('Connection refused'). sqlmap is going to retry the request(s)
+[23:07:10] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[23:08:02] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment)'
+[23:08:46] [INFO] testing 'OR boolean-based blind - WHERE or HAVING clause (Generic comment) (NOT)'
+[23:09:35] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL)'
+[23:09:36] [INFO] testing 'Boolean-based blind - Parameter replace (DUAL) (original value)'
+[23:09:37] [INFO] testing 'Boolean-based blind - Parameter replace (CASE)'
+[23:09:38] [INFO] testing 'Boolean-based blind - Parameter replace (CASE) (original value)'
+[23:09:41] [INFO] testing 'Generic UNION query (NULL) - 1 to 10 columns'
+[23:09:41] [WARNING] using unescaped version of the test because of zero knowledge of the back-end DBMS. You can try to explicitly set it with option '--dbms'
+[23:14:38] [INFO] testing 'Generic UNION query (random number) - 1 to 10 columns'
+[23:16:15] [CRITICAL] connection reset to the target URL. sqlmap is going to retry the request(s)
+[23:16:15] [CRITICAL] unable to connect to the target URL ('Connection refused')
+[23:16:15] [CRITICAL] unable to connect to the target URL ('Connection refused'). sqlmap is going to retry the request(s)
+[23:19:13] [INFO] testing 'Generic UNION query (NULL) - 11 to 20 columns'
+it is not recommended to perform extended UNION tests if there is not at least one other (potential) technique found. Do you want to skip? [Y/n] Y
+[23:19:13] [INFO] testing 'Generic UNION query (random number) - 11 to 20 columns'
+[23:19:13] [INFO] testing 'Generic UNION query (NULL) - 21 to 30 columns'
+[23:19:13] [INFO] testing 'Generic UNION query (random number) - 21 to 30 columns'
+[23:19:13] [INFO] testing 'Generic UNION query (NULL) - 31 to 40 columns'
+[23:19:13] [INFO] testing 'Generic UNION query (random number) - 31 to 40 columns'
+[23:19:13] [INFO] testing 'Generic UNION query (NULL) - 41 to 50 columns'
+[23:19:13] [INFO] testing 'Generic UNION query (random number) - 41 to 50 columns'
+[23:19:13] [WARNING] GET parameter 'm' does not seem to be injectable
+[23:19:13] [INFO] skipping previously processed Host parameter 'Host'
+[23:19:13] [INFO] skipping previously processed User-Agent parameter 'User-Agent'
+[23:19:13] [INFO] skipping previously processed Referer parameter 'Referer'
+[23:19:13] [ERROR] all tested parameters appear to be not injectable. Also, you can try to rerun by providing either a valid value for option '--string' (or '--regexp'). If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could retry with an option '--tamper' (e.g. '--tamper=space2comment'), skipping to the next URL
+[23:19:13] [WARNING] HTTP error codes detected during run:
+500 (Internal Server Error) - 1 times, 404 (Not Found) - 647 times
+[23:19:13] [INFO] you can find results of scanning in multiple targets mode inside the CSV file '/root/.sqlmap/output/results-06202018_1000pm.csv'
+
+[*] shutting down at 23:19:13
+
+        ___
+       __H__
+ ___ ___[']_____ ___ ___  {1.1.9#stable}
+|_ -| . [.]     | .'| . |
+|___|_  [(]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting at 23:19:13
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[23:19:13] [INFO] starting crawler
+[23:19:13] [INFO] searching for links with depth 1
+[23:19:14] [INFO] heuristics detected web page charset 'ascii'
+[23:19:14] [INFO] 1/1 links visited (100%)[23:19:14] [WARNING] no usable links found (with GET parameters)
+
+[*] shutting down at 23:19:14
+
+        ___
+       __H__
+ ___ ___[']_____ ___ ___  {1.1.9#stable}
+|_ -| . [.]     | .'| . |
+|___|_  [,]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting at 23:19:15
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[23:19:15] [INFO] starting crawler
+[23:19:15] [INFO] searching for links with depth 1
+[23:19:16] [INFO] heuristics detected web page charset 'ascii'
+[23:19:16] [INFO] 1/1 links visited (100%)[23:19:16] [WARNING] no usable links found (with GET parameters)
+
+[*] shutting down at 23:19:16
+
+        ___
+       __H__
+ ___ ___[.]_____ ___ ___  {1.1.9#stable}
+|_ -| . [,]     | .'| . |
+|___|_  [']_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting at 23:19:16
+
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[23:19:16] [INFO] starting crawler
+[23:19:16] [INFO] searching for links with depth 1
+[23:19:17] [INFO] heuristics detected web page charset 'ascii'
+[23:19:17] [INFO] 1/1 links visited (100%)[23:19:17] [WARNING] no usable links found (with GET parameters)
+
+[*] shutting down at 23:19:17
+
