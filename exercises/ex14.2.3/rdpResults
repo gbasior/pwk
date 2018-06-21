@@ -1,0 +1,38 @@
+
+Starting Ncrack 0.5 ( http://ncrack.org ) at 2018-06-21 12:40 EDT
+
+rdp://10.11.1.5:3389 finished.
+
+
+Ncrack done: 1 service scanned in 4.79 seconds.
+Probes sent: 1 | timed-out: 1 | prematurely-closed: 0
+
+Ncrack finished.
+
+Starting Ncrack 0.5 ( http://ncrack.org ) at 2018-06-21 12:40 EDT
+
+Saved current session state at: /root/.ncrack/restore.2018-06-21_13-03
+
+Starting Ncrack 0.5 ( http://ncrack.org ) at 2018-06-21 13:03 EDT
+
+rdp://10.11.1.8:3389 finished.
+
+
+Ncrack done: 1 service scanned in 4.95 seconds.
+Probes sent: 1 | timed-out: 1 | prematurely-closed: 0
+
+Ncrack finished.
+
+Starting Ncrack 0.5 ( http://ncrack.org ) at 2018-06-21 13:03 EDT
+
+rdp://10.11.1.10:3389 finished.
+
+
+Ncrack done: 1 service scanned in 7.82 seconds.
+Probes sent: 1 | timed-out: 1 | prematurely-closed: 0
+
+Ncrack finished.
+
+Starting Ncrack 0.5 ( http://ncrack.org ) at 2018-06-21 13:04 EDT
+
+Saved current session state at: /root/.ncrack/restore.2018-06-21_13-17

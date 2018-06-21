@@ -1,0 +1,26 @@
+10.11.1.8  Cisco SA520 firewall (Linux 2.6) (91%)
+10.11.1.10  Microsoft Windows XP (93%)
+10.11.1.13 
+10.11.1.14  Microsoft Windows XP (98%)
+10.11.1.22  Linux 2.4.20 (98%)
+10.11.1.24  Tomato 1.27 - 1.28 (Linux 2.4.20) (94%)
+10.11.1.31  Microsoft Windows Server 2003 SP2 (94%)
+10.11.1.39  Linux 4.4 (91%)
+10.11.1.49  Microsoft Windows 7 or Windows Server 2008 R2 (98%)
+10.11.1.50 
+10.11.1.71  Linux 3.2.0 (95%)
+10.11.1.72  Linux 3.2.0 (95%)
+10.11.1.115  Linux 2.4.20 (98%)
+10.11.1.128  Microsoft Windows XP (98%)
+10.11.1.133  Linux 2.6.32 (95%)
+10.11.1.202  Microsoft Windows XP (98%)
+10.11.1.209 
+10.11.1.217  Linux 2.6.18 (98%)
+10.11.1.219  Linux 3.10 - 3.16 (90%)
+10.11.1.223 
+10.11.1.227  Microsoft Windows XP (98%)
+10.11.1.229  Microsoft Windows XP (93%)
+10.11.1.234  Linux 2.6.32 (95%)
+10.11.1.237  Linux 3.2.0 (95%)
+10.11.1.238  Linux 3.2.0 (95%)
+10.11.1.251  Linux 2.6.32 (90%)

