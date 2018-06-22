@@ -1,0 +1,4 @@
+# Nmap 7.60 scan initiated Fri Jun 22 10:41:07 2018 as: nmap -p 80 -oG temp 10.11.1.251
+Host: 10.11.1.251 ()	Status: Up
+Host: 10.11.1.251 ()	Ports: 80/open/tcp//http///
+# Nmap done at Fri Jun 22 10:41:07 2018 -- 1 IP address (1 host up) scanned in 0.59 seconds

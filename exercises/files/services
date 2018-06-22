@@ -1,5 +1,9 @@
-ip 80
-ssl 443
-rdp 3389
-smb 139
-smb2 445
+//ip 80
+//ssl 443
+//rdp 3389
+//smb 139
+//smb2 445
+pop3 110
+smtp 25
+smtpTlc 587
+smtpSSL 465

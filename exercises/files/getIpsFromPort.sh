@@ -3,6 +3,11 @@
 filePre='open_'
 fileTempPre='temp'
 cat services | while read line; do
+	if [[ $line == //* ]]; then
+		continue
+	fi
+	echo $line
+
 	type=$(echo $line | cut -d' ' -f1)
 	port=$(echo $line | cut -d' ' -f2)
 
@@ -18,7 +23,7 @@ cat services | while read line; do
 
 	rm -f $filePre$type
 	touch $filePre$type
-	for ip in $(cat $fileTempPre$type | grep Up | cut -d' ' -f2); do
+	for ip in $(cat $fileTempPre$type | grep open | cut -d' ' -f2); do
 		#echo $ip
 		echo $ip >> $filePre$type
 	done 

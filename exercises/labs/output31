@@ -1,0 +1,4 @@
+# Nmap 7.60 scan initiated Fri Jun 22 10:46:14 2018 as: nmap -sV -oG output131 10.11.1.31
+Host: 10.11.1.31 ()	Status: Up
+Host: 10.11.1.31 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 6.0/, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds//Microsoft Windows 2003 or 2008 microsoft-ds/, 1025/open/tcp//msrpc//Microsoft Windows RPC/, 1433/open/tcp//ms-sql-s//Microsoft SQL Server 2000 8.00.766; SP3a/, 3389/open/tcp//ms-wbt-server//Microsoft Terminal Service/	Ignored State: closed (993)
+# Nmap done at Fri Jun 22 10:48:15 2018 -- 1 IP address (1 host up) scanned in 121.11 seconds
