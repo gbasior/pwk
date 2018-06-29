@@ -1,0 +1,533 @@
+Starting Nmap 7.70 ( https://nmap.org ) at 2018-06-25 19:49 EDT
+NSE: Loaded 148 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 19:49
+Completed NSE at 19:49, 0.00s elapsed
+Initiating NSE at 19:49
+Completed NSE at 19:49, 0.00s elapsed
+Initiating ARP Ping Scan at 19:49
+Scanning 254 hosts [1 port/host]
+Completed ARP Ping Scan at 19:49, 2.63s elapsed (254 total hosts)
+Initiating Parallel DNS resolution of 254 hosts. at 19:49
+Completed Parallel DNS resolution of 254 hosts. at 19:49, 0.11s elapsed
+Nmap scan report for 10.11.1.1 [host down]
+Nmap scan report for 10.11.1.2 [host down]
+Nmap scan report for 10.11.1.3 [host down]
+Nmap scan report for 10.11.1.4 [host down]
+Nmap scan report for 10.11.1.6 [host down]
+Nmap scan report for 10.11.1.9 [host down]
+Nmap scan report for 10.11.1.11 [host down]
+Nmap scan report for 10.11.1.12 [host down]
+Nmap scan report for 10.11.1.15 [host down]
+Nmap scan report for 10.11.1.16 [host down]
+Nmap scan report for 10.11.1.17 [host down]
+Nmap scan report for 10.11.1.18 [host down]
+Nmap scan report for 10.11.1.19 [host down]
+Nmap scan report for 10.11.1.20 [host down]
+Nmap scan report for 10.11.1.21 [host down]
+Nmap scan report for 10.11.1.23 [host down]
+Nmap scan report for 10.11.1.25 [host down]
+Nmap scan report for 10.11.1.26 [host down]
+Nmap scan report for 10.11.1.27 [host down]
+Nmap scan report for 10.11.1.28 [host down]
+Nmap scan report for 10.11.1.29 [host down]
+Nmap scan report for 10.11.1.30 [host down]
+Nmap scan report for 10.11.1.32 [host down]
+Nmap scan report for 10.11.1.33 [host down]
+Nmap scan report for 10.11.1.34 [host down]
+Nmap scan report for 10.11.1.36 [host down]
+Nmap scan report for 10.11.1.37 [host down]
+Nmap scan report for 10.11.1.38 [host down]
+Nmap scan report for 10.11.1.40 [host down]
+Nmap scan report for 10.11.1.41 [host down]
+Nmap scan report for 10.11.1.42 [host down]
+Nmap scan report for 10.11.1.43 [host down]
+Nmap scan report for 10.11.1.45 [host down]
+Nmap scan report for 10.11.1.46 [host down]
+Nmap scan report for 10.11.1.47 [host down]
+Nmap scan report for 10.11.1.48 [host down]
+Nmap scan report for 10.11.1.51 [host down]
+Nmap scan report for 10.11.1.52 [host down]
+Nmap scan report for 10.11.1.53 [host down]
+Nmap scan report for 10.11.1.54 [host down]
+Nmap scan report for 10.11.1.55 [host down]
+Nmap scan report for 10.11.1.56 [host down]
+Nmap scan report for 10.11.1.57 [host down]
+Nmap scan report for 10.11.1.58 [host down]
+Nmap scan report for 10.11.1.59 [host down]
+Nmap scan report for 10.11.1.60 [host down]
+Nmap scan report for 10.11.1.61 [host down]
+Nmap scan report for 10.11.1.62 [host down]
+Nmap scan report for 10.11.1.63 [host down]
+Nmap scan report for 10.11.1.64 [host down]
+Nmap scan report for 10.11.1.65 [host down]
+Nmap scan report for 10.11.1.66 [host down]
+Nmap scan report for 10.11.1.67 [host down]
+Nmap scan report for 10.11.1.68 [host down]
+Nmap scan report for 10.11.1.69 [host down]
+Nmap scan report for 10.11.1.70 [host down]
+Nmap scan report for 10.11.1.74 [host down]
+Nmap scan report for 10.11.1.75 [host down]
+Nmap scan report for 10.11.1.76 [host down]
+Nmap scan report for 10.11.1.77 [host down]
+Nmap scan report for 10.11.1.78 [host down]
+Nmap scan report for 10.11.1.79 [host down]
+Nmap scan report for 10.11.1.80 [host down]
+Nmap scan report for 10.11.1.81 [host down]
+Nmap scan report for 10.11.1.82 [host down]
+Nmap scan report for 10.11.1.83 [host down]
+Nmap scan report for 10.11.1.84 [host down]
+Nmap scan report for 10.11.1.85 [host down]
+Nmap scan report for 10.11.1.86 [host down]
+Nmap scan report for 10.11.1.87 [host down]
+Nmap scan report for 10.11.1.88 [host down]
+Nmap scan report for 10.11.1.89 [host down]
+Nmap scan report for 10.11.1.90 [host down]
+Nmap scan report for 10.11.1.91 [host down]
+Nmap scan report for 10.11.1.92 [host down]
+Nmap scan report for 10.11.1.93 [host down]
+Nmap scan report for 10.11.1.94 [host down]
+Nmap scan report for 10.11.1.95 [host down]
+Nmap scan report for 10.11.1.96 [host down]
+Nmap scan report for 10.11.1.97 [host down]
+Nmap scan report for 10.11.1.98 [host down]
+Nmap scan report for 10.11.1.99 [host down]
+Nmap scan report for 10.11.1.100 [host down]
+Nmap scan report for 10.11.1.101 [host down]
+Nmap scan report for 10.11.1.102 [host down]
+Nmap scan report for 10.11.1.103 [host down]
+Nmap scan report for 10.11.1.104 [host down]
+Nmap scan report for 10.11.1.105 [host down]
+Nmap scan report for 10.11.1.106 [host down]
+Nmap scan report for 10.11.1.107 [host down]
+Nmap scan report for 10.11.1.108 [host down]
+Nmap scan report for 10.11.1.109 [host down]
+Nmap scan report for 10.11.1.110 [host down]
+Nmap scan report for 10.11.1.111 [host down]
+Nmap scan report for 10.11.1.112 [host down]
+Nmap scan report for 10.11.1.113 [host down]
+Nmap scan report for 10.11.1.114 [host down]
+Nmap scan report for 10.11.1.117 [host down]
+Nmap scan report for 10.11.1.118 [host down]
+Nmap scan report for 10.11.1.119 [host down]
+Nmap scan report for 10.11.1.120 [host down]
+Nmap scan report for 10.11.1.121 [host down]
+Nmap scan report for 10.11.1.122 [host down]
+Nmap scan report for 10.11.1.123 [host down]
+Nmap scan report for 10.11.1.124 [host down]
+Nmap scan report for 10.11.1.126 [host down]
+Nmap scan report for 10.11.1.127 [host down]
+Nmap scan report for 10.11.1.129 [host down]
+Nmap scan report for 10.11.1.130 [host down]
+Nmap scan report for 10.11.1.131 [host down]
+Nmap scan report for 10.11.1.132 [host down]
+Nmap scan report for 10.11.1.134 [host down]
+Nmap scan report for 10.11.1.135 [host down]
+Nmap scan report for 10.11.1.137 [host down]
+Nmap scan report for 10.11.1.138 [host down]
+Nmap scan report for 10.11.1.139 [host down]
+Nmap scan report for 10.11.1.140 [host down]
+Nmap scan report for 10.11.1.142 [host down]
+Nmap scan report for 10.11.1.143 [host down]
+Nmap scan report for 10.11.1.144 [host down]
+Nmap scan report for 10.11.1.147 [host down]
+Nmap scan report for 10.11.1.148 [host down]
+Nmap scan report for 10.11.1.149 [host down]
+Nmap scan report for 10.11.1.150 [host down]
+Nmap scan report for 10.11.1.151 [host down]
+Nmap scan report for 10.11.1.152 [host down]
+Nmap scan report for 10.11.1.153 [host down]
+Nmap scan report for 10.11.1.154 [host down]
+Nmap scan report for 10.11.1.155 [host down]
+Nmap scan report for 10.11.1.156 [host down]
+Nmap scan report for 10.11.1.157 [host down]
+Nmap scan report for 10.11.1.158 [host down]
+Nmap scan report for 10.11.1.159 [host down]
+Nmap scan report for 10.11.1.160 [host down]
+Nmap scan report for 10.11.1.161 [host down]
+Nmap scan report for 10.11.1.162 [host down]
+Nmap scan report for 10.11.1.163 [host down]
+Nmap scan report for 10.11.1.164 [host down]
+Nmap scan report for 10.11.1.165 [host down]
+Nmap scan report for 10.11.1.166 [host down]
+Nmap scan report for 10.11.1.167 [host down]
+Nmap scan report for 10.11.1.168 [host down]
+Nmap scan report for 10.11.1.169 [host down]
+Nmap scan report for 10.11.1.170 [host down]
+Nmap scan report for 10.11.1.171 [host down]
+Nmap scan report for 10.11.1.172 [host down]
+Nmap scan report for 10.11.1.173 [host down]
+Nmap scan report for 10.11.1.174 [host down]
+Nmap scan report for 10.11.1.175 [host down]
+Nmap scan report for 10.11.1.176 [host down]
+Nmap scan report for 10.11.1.177 [host down]
+Nmap scan report for 10.11.1.178 [host down]
+Nmap scan report for 10.11.1.179 [host down]
+Nmap scan report for 10.11.1.180 [host down]
+Nmap scan report for 10.11.1.181 [host down]
+Nmap scan report for 10.11.1.182 [host down]
+Nmap scan report for 10.11.1.183 [host down]
+Nmap scan report for 10.11.1.184 [host down]
+Nmap scan report for 10.11.1.185 [host down]
+Nmap scan report for 10.11.1.186 [host down]
+Nmap scan report for 10.11.1.187 [host down]
+Nmap scan report for 10.11.1.188 [host down]
+Nmap scan report for 10.11.1.189 [host down]
+Nmap scan report for 10.11.1.190 [host down]
+Nmap scan report for 10.11.1.191 [host down]
+Nmap scan report for 10.11.1.192 [host down]
+Nmap scan report for 10.11.1.193 [host down]
+Nmap scan report for 10.11.1.194 [host down]
+Nmap scan report for 10.11.1.195 [host down]
+Nmap scan report for 10.11.1.196 [host down]
+Nmap scan report for 10.11.1.197 [host down]
+Nmap scan report for 10.11.1.198 [host down]
+Nmap scan report for 10.11.1.199 [host down]
+Nmap scan report for 10.11.1.200 [host down]
+Nmap scan report for 10.11.1.201 [host down]
+Nmap scan report for 10.11.1.203 [host down]
+Nmap scan report for 10.11.1.204 [host down]
+Nmap scan report for 10.11.1.205 [host down]
+Nmap scan report for 10.11.1.206 [host down]
+Nmap scan report for 10.11.1.207 [host down]
+Nmap scan report for 10.11.1.208 [host down]
+Nmap scan report for 10.11.1.210 [host down]
+Nmap scan report for 10.11.1.211 [host down]
+Nmap scan report for 10.11.1.212 [host down]
+Nmap scan report for 10.11.1.213 [host down]
+Nmap scan report for 10.11.1.214 [host down]
+Nmap scan report for 10.11.1.215 [host down]
+Nmap scan report for 10.11.1.216 [host down]
+Nmap scan report for 10.11.1.222 [host down]
+Nmap scan report for 10.11.1.224 [host down]
+Nmap scan report for 10.11.1.225 [host down]
+Nmap scan report for 10.11.1.228 [host down]
+Nmap scan report for 10.11.1.231 [host down]
+Nmap scan report for 10.11.1.232 [host down]
+Nmap scan report for 10.11.1.233 [host down]
+Nmap scan report for 10.11.1.235 [host down]
+Nmap scan report for 10.11.1.236 [host down]
+Nmap scan report for 10.11.1.239 [host down]
+Nmap scan report for 10.11.1.240 [host down]
+Nmap scan report for 10.11.1.241 [host down]
+Nmap scan report for 10.11.1.242 [host down]
+Nmap scan report for 10.11.1.243 [host down]
+Nmap scan report for 10.11.1.244 [host down]
+Nmap scan report for 10.11.1.245 [host down]
+Nmap scan report for 10.11.1.246 [host down]
+Nmap scan report for 10.11.1.248 [host down]
+Nmap scan report for 10.11.1.249 [host down]
+Nmap scan report for 10.11.1.250 [host down]
+Nmap scan report for 10.11.1.253 [host down]
+Nmap scan report for 10.11.1.254 [host down]
+Initiating UDP Scan at 19:49
+Scanning 44 hosts [1000 ports/host]
+Increasing send delay for 10.11.1.72 from 0 to 50 due to max_successful_tryno increase to 4
+UDP Scan Timing: About 1.62% done; ETC: 20:21 (0:31:20 remaining)
+Increasing send delay for 10.11.1.230 from 0 to 50 due to max_successful_tryno increase to 4
+Increasing send delay for 10.11.1.230 from 50 to 100 due to max_successful_tryno increase to 5
+UDP Scan Timing: About 2.60% done; ETC: 20:28 (0:38:06 remaining)
+Increasing send delay for 10.11.1.50 from 0 to 50 due to max_successful_tryno increase to 4
+UDP Scan Timing: About 3.45% done; ETC: 20:33 (0:42:27 remaining)
+UDP Scan Timing: About 4.41% done; ETC: 20:36 (0:44:48 remaining)
+UDP Scan Timing: About 5.15% done; ETC: 20:39 (0:47:19 remaining)
+Increasing send delay for 10.11.1.223 from 0 to 50 due to max_successful_tryno increase to 4
+Increasing send delay for 10.11.1.223 from 50 to 100 due to max_successful_tryno increase to 5
+Increasing send delay for 10.11.1.133 from 0 to 50 due to 11 out of 17 dropped probes since last increase.
+Increasing send delay for 10.11.1.50 from 50 to 100 due to max_successful_tryno increase to 5
+UDP Scan Timing: About 12.27% done; ETC: 20:40 (0:44:49 remaining)
+Increasing send delay for 10.11.1.133 from 50 to 100 due to 11 out of 17 dropped probes since last increase.
+Discovered open port 135/udp on 10.11.1.5
+Increasing send delay for 10.11.1.133 from 100 to 200 due to 11 out of 11 dropped probes since last increase.
+UDP Scan Timing: About 13.13% done; ETC: 20:44 (0:47:24 remaining)
+Discovered open port 123/udp on 10.11.1.217
+Increasing send delay for 10.11.1.133 from 200 to 400 due to 11 out of 11 dropped probes since last increase.
+UDP Scan Timing: About 16.19% done; ETC: 20:43 (0:44:36 remaining)
+UDP Scan Timing: About 19.52% done; ETC: 20:41 (0:41:43 remaining)
+Increasing send delay for 10.11.1.133 from 400 to 800 due to 11 out of 15 dropped probes since last increase.
+UDP Scan Timing: About 23.36% done; ETC: 20:40 (0:39:05 remaining)
+Increasing send delay for 10.11.1.133 from 800 to 1000 due to 11 out of 12 dropped probes since last increase.
+UDP Scan Timing: About 29.32% done; ETC: 20:41 (0:36:27 remaining)
+Discovered open port 2049/udp on 10.11.1.72
+UDP Scan Timing: About 33.71% done; ETC: 20:40 (0:33:51 remaining)
+Increasing send delay for 10.11.1.223 from 100 to 200 due to max_successful_tryno increase to 6
+Discovered open port 1033/udp on 10.11.1.5
+UDP Scan Timing: About 38.52% done; ETC: 20:40 (0:31:13 remaining)
+UDP Scan Timing: About 42.94% done; ETC: 20:39 (0:28:36 remaining)
+Discovered open port 520/udp on 10.11.1.209
+UDP Scan Timing: About 48.22% done; ETC: 20:40 (0:26:04 remaining)
+Discovered open port 53/udp on 10.11.1.221
+UDP Scan Timing: About 53.39% done; ETC: 20:40 (0:23:32 remaining)
+Discovered open port 137/udp on 10.11.1.136
+Increasing send delay for 10.11.1.221 from 0 to 50 due to 11 out of 15 dropped probes since last increase.
+UDP Scan Timing: About 58.60% done; ETC: 20:40 (0:20:56 remaining)
+UDP Scan Timing: About 63.72% done; ETC: 20:40 (0:18:21 remaining)
+Increasing send delay for 10.11.1.221 from 50 to 100 due to 11 out of 15 dropped probes since last increase.
+UDP Scan Timing: About 68.63% done; ETC: 20:40 (0:15:49 remaining)
+Discovered open port 137/udp on 10.11.1.202
+Completed UDP Scan against 10.11.1.136 in 2134.48s (43 hosts left)
+Discovered open port 5353/udp on 10.11.1.238
+Discovered open port 5353/udp on 10.11.1.237
+Discovered open port 137/udp on 10.11.1.218
+Discovered open port 137/udp on 10.11.1.230
+Discovered open port 137/udp on 10.11.1.220
+Discovered open port 137/udp on 10.11.1.5
+Discovered open port 137/udp on 10.11.1.223
+Increasing send delay for 10.11.1.221 from 100 to 200 due to 11 out of 15 dropped probes since last increase.
+UDP Scan Timing: About 73.97% done; ETC: 20:40 (0:13:16 remaining)
+Discovered open port 161/udp on 10.11.1.22
+Discovered open port 137/udp on 10.11.1.229
+Discovered open port 137/udp on 10.11.1.227
+Discovered open port 5353/udp on 10.11.1.72
+Discovered open port 137/udp on 10.11.1.22
+Discovered open port 137/udp on 10.11.1.31
+Discovered open port 137/udp on 10.11.1.221
+UDP Scan Timing: About 79.27% done; ETC: 20:41 (0:10:40 remaining)
+Increasing send delay for 10.11.1.221 from 200 to 400 due to 11 out of 15 dropped probes since last increase.
+Completed UDP Scan against 10.11.1.146 in 2501.34s (42 hosts left)
+Discovered open port 137/udp on 10.11.1.24
+Discovered open port 111/udp on 10.11.1.217
+Discovered open port 161/udp on 10.11.1.115
+Discovered open port 137/udp on 10.11.1.73
+Discovered open port 137/udp on 10.11.1.128
+Completed UDP Scan against 10.11.1.141 in 2635.16s (41 hosts left)
+UDP Scan Timing: About 84.53% done; ETC: 20:41 (0:08:03 remaining)
+Warning: 10.11.1.133 giving up on port because retransmission cap hit (10).
+Discovered open port 111/udp on 10.11.1.237
+Discovered open port 137/udp on 10.11.1.115
+Discovered open port 137/udp on 10.11.1.50
+Completed UDP Scan against 10.11.1.202 in 2708.72s (40 hosts left)
+Discovered open port 111/udp on 10.11.1.238
+Discovered open port 111/udp on 10.11.1.209
+Increasing send delay for 10.11.1.221 from 400 to 800 due to 11 out of 16 dropped probes since last increase.
+Completed UDP Scan against 10.11.1.226 in 2793.56s (39 hosts left)
+Completed UDP Scan against 10.11.1.223 in 2807.82s (38 hosts left)
+Completed UDP Scan against 10.11.1.218 in 2816.91s (37 hosts left)
+UDP Scan Timing: About 89.75% done; ETC: 20:42 (0:05:23 remaining)
+Completed UDP Scan against 10.11.1.217 in 2855.35s (36 hosts left)
+Completed UDP Scan against 10.11.1.229 in 2888.28s (35 hosts left)
+Discovered open port 137/udp on 10.11.1.145
+Completed UDP Scan against 10.11.1.237 in 2906.99s (34 hosts left)
+Completed UDP Scan against 10.11.1.220 in 2920.59s (33 hosts left)
+Discovered open port 111/udp on 10.11.1.22
+Completed UDP Scan against 10.11.1.252 in 2936.65s (32 hosts left)
+Completed UDP Scan against 10.11.1.230 in 2940.25s (31 hosts left)
+Completed UDP Scan against 10.11.1.234 in 2941.03s (30 hosts left)
+Completed UDP Scan against 10.11.1.5 in 2950.75s (29 hosts left)
+Completed UDP Scan against 10.11.1.8 in 2954.61s (28 hosts left)
+Discovered open port 111/udp on 10.11.1.72
+Completed UDP Scan against 10.11.1.209 in 2968.16s (27 hosts left)
+Completed UDP Scan against 10.11.1.238 in 2992.41s (26 hosts left)
+Completed UDP Scan against 10.11.1.10 in 2992.56s (25 hosts left)
+Completed UDP Scan against 10.11.1.227 in 3002.76s (24 hosts left)
+UDP Scan Timing: About 94.83% done; ETC: 20:42 (0:02:44 remaining)
+Completed UDP Scan against 10.11.1.251 in 3046.20s (23 hosts left)
+Completed UDP Scan against 10.11.1.247 in 3047.97s (22 hosts left)
+Completed UDP Scan against 10.11.1.7 in 3054.12s (21 hosts left)
+Completed UDP Scan against 10.11.1.31 in 3054.67s (20 hosts left)
+Completed UDP Scan against 10.11.1.13 in 3057.79s (19 hosts left)
+Completed UDP Scan against 10.11.1.14 in 3059.07s (18 hosts left)
+Discovered open port 111/udp on 10.11.1.115
+Increasing send delay for 10.11.1.44 from 0 to 50 due to max_successful_tryno increase to 4
+Completed UDP Scan against 10.11.1.125 in 3085.99s (17 hosts left)
+Increasing send delay for 10.11.1.71 from 0 to 50 due to max_successful_tryno increase to 4
+Completed UDP Scan against 10.11.1.22 in 3093.09s (16 hosts left)
+Completed UDP Scan against 10.11.1.116 in 3095.27s (15 hosts left)
+Completed UDP Scan against 10.11.1.24 in 3098.13s (14 hosts left)
+Completed UDP Scan against 10.11.1.219 in 3099.04s (13 hosts left)
+Increasing send delay for 10.11.1.39 from 0 to 50 due to max_successful_tryno increase to 4
+Increasing send delay for 10.11.1.39 from 50 to 100 due to max_successful_tryno increase to 5
+Increasing send delay for 10.11.1.221 from 800 to 1000 due to 11 out of 15 dropped probes since last increase.
+Increasing send delay for 10.11.1.39 from 100 to 200 due to max_successful_tryno increase to 6
+Completed UDP Scan against 10.11.1.72 in 3133.12s (12 hosts left)
+Increasing send delay for 10.11.1.50 from 100 to 200 due to max_successful_tryno increase to 6
+Increasing send delay for 10.11.1.50 from 200 to 400 due to max_successful_tryno increase to 7
+Completed UDP Scan against 10.11.1.35 in 3139.81s (11 hosts left)
+Completed UDP Scan against 10.11.1.73 in 3144.03s (10 hosts left)
+Completed UDP Scan against 10.11.1.145 in 3145.85s (9 hosts left)
+Increasing send delay for 10.11.1.44 from 50 to 100 due to max_successful_tryno increase to 5
+Increasing send delay for 10.11.1.71 from 50 to 100 due to max_successful_tryno increase to 5
+Increasing send delay for 10.11.1.44 from 100 to 200 due to max_successful_tryno increase to 6
+Completed UDP Scan against 10.11.1.49 in 3153.07s (8 hosts left)
+Increasing send delay for 10.11.1.39 from 200 to 400 due to 11 out of 30 dropped probes since last increase.
+Increasing send delay for 10.11.1.115 from 0 to 50 due to max_successful_tryno increase to 4
+Increasing send delay for 10.11.1.115 from 50 to 100 due to max_successful_tryno increase to 5
+Completed UDP Scan against 10.11.1.128 in 3160.11s (7 hosts left)
+Increasing send delay for 10.11.1.115 from 100 to 200 due to max_successful_tryno increase to 6
+Increasing send delay for 10.11.1.71 from 100 to 200 due to max_successful_tryno increase to 6
+Increasing send delay for 10.11.1.44 from 200 to 400 due to 11 out of 13 dropped probes since last increase.
+Increasing send delay for 10.11.1.50 from 400 to 800 due to 11 out of 26 dropped probes since last increase.
+Increasing send delay for 10.11.1.39 from 400 to 800 due to 11 out of 20 dropped probes since last increase.
+Increasing send delay for 10.11.1.71 from 200 to 400 due to 11 out of 15 dropped probes since last increase.
+Increasing send delay for 10.11.1.115 from 200 to 400 due to 11 out of 15 dropped probes since last increase.
+UDP Scan Timing: About 98.22% done; ETC: 20:43 (0:00:58 remaining)
+Completed UDP Scan against 10.11.1.71 in 3178.31s (6 hosts left)
+Increasing send delay for 10.11.1.115 from 400 to 800 due to max_successful_tryno increase to 7
+Increasing send delay for 10.11.1.115 from 800 to 1000 due to max_successful_tryno increase to 8
+Completed UDP Scan against 10.11.1.44 in 3182.60s (5 hosts left)
+Completed UDP Scan against 10.11.1.115 in 3189.20s (4 hosts left)
+Increasing send delay for 10.11.1.50 from 800 to 1000 due to 11 out of 26 dropped probes since last increase.
+Completed UDP Scan against 10.11.1.39 in 3215.12s (3 hosts left)
+Completed UDP Scan against 10.11.1.50 in 3222.57s (2 hosts left)
+UDP Scan Timing: About 98.35% done; ETC: 20:44 (0:00:54 remaining)
+Completed UDP Scan against 10.11.1.221 in 3248.01s (1 host left)
+UDP Scan Timing: About 98.37% done; ETC: 20:45 (0:00:55 remaining)
+UDP Scan Timing: About 98.38% done; ETC: 20:46 (0:00:55 remaining)
+UDP Scan Timing: About 98.39% done; ETC: 20:47 (0:00:56 remaining)
+UDP Scan Timing: About 98.41% done; ETC: 20:48 (0:00:56 remaining)
+UDP Scan Timing: About 98.42% done; ETC: 20:49 (0:00:56 remaining)
+UDP Scan Timing: About 98.43% done; ETC: 20:50 (0:00:57 remaining)
+UDP Scan Timing: About 98.46% done; ETC: 20:51 (0:00:57 remaining)
+UDP Scan Timing: About 98.47% done; ETC: 20:52 (0:00:57 remaining)
+UDP Scan Timing: About 98.48% done; ETC: 20:53 (0:00:58 remaining)
+UDP Scan Timing: About 98.50% done; ETC: 20:54 (0:00:58 remaining)
+UDP Scan Timing: About 98.51% done; ETC: 20:55 (0:00:59 remaining)
+UDP Scan Timing: About 98.52% done; ETC: 20:56 (0:00:59 remaining)
+UDP Scan Timing: About 98.54% done; ETC: 20:57 (0:00:59 remaining)
+UDP Scan Timing: About 98.55% done; ETC: 20:58 (0:00:59 remaining)
+UDP Scan Timing: About 98.57% done; ETC: 20:59 (0:01:00 remaining)
+UDP Scan Timing: About 98.59% done; ETC: 21:00 (0:01:00 remaining)
+UDP Scan Timing: About 98.60% done; ETC: 21:01 (0:01:00 remaining)
+UDP Scan Timing: About 98.61% done; ETC: 21:02 (0:01:01 remaining)
+UDP Scan Timing: About 98.62% done; ETC: 21:03 (0:01:01 remaining)
+UDP Scan Timing: About 98.64% done; ETC: 21:04 (0:01:01 remaining)
+UDP Scan Timing: About 98.66% done; ETC: 21:05 (0:01:01 remaining)
+UDP Scan Timing: About 98.67% done; ETC: 21:06 (0:01:01 remaining)
+UDP Scan Timing: About 98.69% done; ETC: 21:07 (0:01:01 remaining)
+UDP Scan Timing: About 98.70% done; ETC: 21:08 (0:01:01 remaining)
+UDP Scan Timing: About 98.71% done; ETC: 21:09 (0:01:02 remaining)
+UDP Scan Timing: About 98.74% done; ETC: 21:10 (0:01:01 remaining)
+UDP Scan Timing: About 98.75% done; ETC: 21:11 (0:01:02 remaining)
+UDP Scan Timing: About 98.76% done; ETC: 21:12 (0:01:02 remaining)
+UDP Scan Timing: About 98.78% done; ETC: 21:13 (0:01:02 remaining)
+UDP Scan Timing: About 98.79% done; ETC: 21:15 (0:01:02 remaining)
+UDP Scan Timing: About 98.81% done; ETC: 21:16 (0:01:02 remaining)
+UDP Scan Timing: About 98.83% done; ETC: 21:17 (0:01:01 remaining)
+UDP Scan Timing: About 98.84% done; ETC: 21:18 (0:01:02 remaining)
+UDP Scan Timing: About 98.85% done; ETC: 21:19 (0:01:02 remaining)
+UDP Scan Timing: About 98.87% done; ETC: 21:20 (0:01:01 remaining)
+UDP Scan Timing: About 98.89% done; ETC: 21:21 (0:01:01 remaining)
+UDP Scan Timing: About 98.90% done; ETC: 21:22 (0:01:01 remaining)
+UDP Scan Timing: About 98.92% done; ETC: 21:23 (0:01:01 remaining)
+UDP Scan Timing: About 98.93% done; ETC: 21:24 (0:01:01 remaining)
+UDP Scan Timing: About 98.94% done; ETC: 21:25 (0:01:01 remaining)
+UDP Scan Timing: About 98.96% done; ETC: 21:26 (0:01:00 remaining)
+UDP Scan Timing: About 98.98% done; ETC: 21:27 (0:01:00 remaining)
+UDP Scan Timing: About 98.99% done; ETC: 21:28 (0:01:00 remaining)
+UDP Scan Timing: About 99.01% done; ETC: 21:29 (0:00:59 remaining)
+UDP Scan Timing: About 99.02% done; ETC: 21:30 (0:00:59 remaining)
+UDP Scan Timing: About 99.03% done; ETC: 21:31 (0:00:59 remaining)
+UDP Scan Timing: About 99.06% done; ETC: 21:32 (0:00:58 remaining)
+UDP Scan Timing: About 99.07% done; ETC: 21:33 (0:00:58 remaining)
+UDP Scan Timing: About 99.08% done; ETC: 21:34 (0:00:58 remaining)
+UDP Scan Timing: About 99.15% done; ETC: 21:35 (0:00:54 remaining)
+UDP Scan Timing: About 99.17% done; ETC: 21:36 (0:00:53 remaining)
+UDP Scan Timing: About 99.18% done; ETC: 21:37 (0:00:53 remaining)
+UDP Scan Timing: About 99.19% done; ETC: 21:38 (0:00:53 remaining)
+UDP Scan Timing: About 99.21% done; ETC: 21:39 (0:00:52 remaining)
+UDP Scan Timing: About 99.22% done; ETC: 21:39 (0:00:51 remaining)
+UDP Scan Timing: About 99.23% done; ETC: 21:40 (0:00:51 remaining)
+UDP Scan Timing: About 99.24% done; ETC: 21:41 (0:00:51 remaining)
+UDP Scan Timing: About 99.26% done; ETC: 21:42 (0:00:50 remaining)
+UDP Scan Timing: About 99.27% done; ETC: 21:43 (0:00:50 remaining)
+UDP Scan Timing: About 99.28% done; ETC: 21:44 (0:00:49 remaining)
+UDP Scan Timing: About 99.30% done; ETC: 21:45 (0:00:48 remaining)
+UDP Scan Timing: About 99.31% done; ETC: 21:45 (0:00:48 remaining)
+UDP Scan Timing: About 99.32% done; ETC: 21:46 (0:00:48 remaining)
+UDP Scan Timing: About 99.33% done; ETC: 21:47 (0:00:47 remaining)
+UDP Scan Timing: About 99.35% done; ETC: 21:48 (0:00:46 remaining)
+UDP Scan Timing: About 99.36% done; ETC: 21:49 (0:00:46 remaining)
+UDP Scan Timing: About 99.37% done; ETC: 21:49 (0:00:46 remaining)
+UDP Scan Timing: About 99.38% done; ETC: 21:50 (0:00:45 remaining)
+UDP Scan Timing: About 99.40% done; ETC: 21:51 (0:00:44 remaining)
+UDP Scan Timing: About 99.41% done; ETC: 21:52 (0:00:44 remaining)
+UDP Scan Timing: About 99.41% done; ETC: 21:52 (0:00:43 remaining)
+UDP Scan Timing: About 99.42% done; ETC: 21:53 (0:00:43 remaining)
+UDP Scan Timing: About 99.43% done; ETC: 21:54 (0:00:43 remaining)
+UDP Scan Timing: About 99.45% done; ETC: 21:55 (0:00:41 remaining)
+UDP Scan Timing: About 99.46% done; ETC: 21:55 (0:00:41 remaining)
+UDP Scan Timing: About 99.47% done; ETC: 21:56 (0:00:41 remaining)
+UDP Scan Timing: About 99.47% done; ETC: 21:57 (0:00:40 remaining)
+UDP Scan Timing: About 99.49% done; ETC: 21:57 (0:00:39 remaining)
+UDP Scan Timing: About 99.50% done; ETC: 21:58 (0:00:39 remaining)
+UDP Scan Timing: About 99.51% done; ETC: 21:59 (0:00:38 remaining)
+UDP Scan Timing: About 99.51% done; ETC: 21:59 (0:00:38 remaining)
+UDP Scan Timing: About 99.52% done; ETC: 22:00 (0:00:38 remaining)
+UDP Scan Timing: About 99.54% done; ETC: 22:01 (0:00:36 remaining)
+UDP Scan Timing: About 99.54% done; ETC: 22:01 (0:00:36 remaining)
+UDP Scan Timing: About 99.55% done; ETC: 22:02 (0:00:36 remaining)
+UDP Scan Timing: About 99.56% done; ETC: 22:02 (0:00:35 remaining)
+UDP Scan Timing: About 99.57% done; ETC: 22:03 (0:00:35 remaining)
+UDP Scan Timing: About 99.58% done; ETC: 22:04 (0:00:34 remaining)
+UDP Scan Timing: About 99.59% done; ETC: 22:04 (0:00:33 remaining)
+UDP Scan Timing: About 99.60% done; ETC: 22:05 (0:00:33 remaining)
+UDP Scan Timing: About 99.60% done; ETC: 22:05 (0:00:33 remaining)
+UDP Scan Timing: About 99.61% done; ETC: 22:06 (0:00:32 remaining)
+UDP Scan Timing: About 99.61% done; ETC: 22:06 (0:00:32 remaining)
+UDP Scan Timing: About 99.63% done; ETC: 22:07 (0:00:30 remaining)
+UDP Scan Timing: About 99.64% done; ETC: 22:07 (0:00:30 remaining)
+Completed UDP Scan at 22:35, 9920.13s elapsed (44000 total ports)
+Initiating Service scan at 22:35
+Scanning 17813 services on 44 hosts
+Service scan Timing: About 0.30% done
+Service scan Timing: About 0.31% done
+Service scan Timing: About 0.42% done
+Service scan Timing: About 0.53% done
+Service scan Timing: About 0.65% done
+Service scan Timing: About 0.76% done
+Service scan Timing: About 0.87% done
+Service scan Timing: About 0.98% done
+Service scan Timing: About 1.09% done; ETC: 20:53 (22:03:37 remaining)
+Service scan Timing: About 1.31% done; ETC: 19:31 (20:39:54 remaining)
+Service scan Timing: About 1.32% done; ETC: 21:11 (22:18:55 remaining)
+Service scan Timing: About 1.53% done; ETC: 20:00 (21:05:42 remaining)
+Service scan Timing: About 1.54% done; ETC: 21:25 (22:28:50 remaining)
+Service scan Timing: About 10.18% done; ETC: 22:20 (21:20:20 remaining)
+Discovered open port 161/udp on 10.11.1.13
+Discovered open|filtered port 161/udp on 10.11.1.13 is actually open
+Service scan Timing: About 15.78% done; ETC: 22:30 (20:08:54 remaining)
+Discovered open port 161/udp on 10.11.1.14
+Discovered open|filtered port 161/udp on 10.11.1.14 is actually open
+Service scan Timing: About 20.96% done; ETC: 22:33 (18:56:56 remaining)
+Discovered open port 32768/udp on 10.11.1.22
+Discovered open|filtered port 32768/udp on 10.11.1.22 is actually open
+Discovered open port 1434/udp on 10.11.1.31
+Discovered open|filtered port 1434/udp on 10.11.1.31 is actually open
+Service scan Timing: About 26.03% done; ETC: 22:34 (17:44:44 remaining)
+Discovered open port 161/udp on 10.11.1.73
+Discovered open|filtered port 161/udp on 10.11.1.73 is actually open
+Service scan Timing: About 31.11% done; ETC: 22:35 (16:32:37 remaining)
+Discovered open port 32768/udp on 10.11.1.115
+Discovered open|filtered port 32768/udp on 10.11.1.115 is actually open
+Service scan Timing: About 36.15% done; ETC: 22:36 (15:20:26 remaining)
+Discovered open port 161/udp on 10.11.1.128
+Discovered open|filtered port 161/udp on 10.11.1.128 is actually open
+Discovered open port 1434/udp on 10.11.1.128
+Discovered open|filtered port 1434/udp on 10.11.1.128 is actually open
+Discovered open port 135/udp on 10.11.1.128
+Discovered open|filtered port 135/udp on 10.11.1.128 is actually open
+Discovered open port 1030/udp on 10.11.1.128
+Discovered open|filtered port 1030/udp on 10.11.1.128 is actually open
+Service scan Timing: About 41.12% done; ETC: 22:35 (14:08:17 remaining)
+Service scan Timing: About 46.16% done; ETC: 22:36 (12:55:55 remaining)
+Service scan Timing: About 51.21% done; ETC: 22:36 (11:43:28 remaining)
+Service scan Timing: About 56.25% done; ETC: 22:38 (10:31:15 remaining)
+Service scan Timing: About 61.30% done; ETC: 22:39 (9:18:51 remaining)
+Discovered open port 88/udp on 10.11.1.220
+Discovered open|filtered port 88/udp on 10.11.1.220 is actually open
+Service scan Timing: About 66.33% done; ETC: 22:40 (8:06:33 remaining)
+Service scan Timing: About 71.34% done; ETC: 22:40 (6:54:15 remaining)
+Discovered open port 69/udp on 10.11.1.226
+Discovered open|filtered port 69/udp on 10.11.1.226 is actually open
+Service scan Timing: About 76.35% done; ETC: 22:41 (5:41:57 remaining)
+Discovered open port 161/udp on 10.11.1.227
+Discovered open|filtered port 161/udp on 10.11.1.227 is actually open
+Discovered open port 1434/udp on 10.11.1.227
+Discovered open|filtered port 1434/udp on 10.11.1.227 is actually open
+Discovered open port 135/udp on 10.11.1.227
+Discovered open|filtered port 135/udp on 10.11.1.227 is actually open
+Service scan Timing: About 81.37% done; ETC: 22:41 (4:29:32 remaining)
+Discovered open port 1021/udp on 10.11.1.238
+Discovered open|filtered port 1021/udp on 10.11.1.238 is actually open
+Service scan Timing: About 86.38% done; ETC: 22:42 (3:17:03 remaining)
+Service scan Timing: About 88.48% done; ETC: 02:13 (8:42:45 remaining)
