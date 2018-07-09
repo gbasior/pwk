@@ -1,0 +1,4 @@
+# Nmap 7.70 scan initiated Mon Jul  9 17:17:00 2018 as: nmap -sV -sT -oG tcpScan10.11.1.141 10.11.1.141
+Host: 10.11.1.141 ()	Status: Up
+Host: 10.11.1.141 ()	Ports: 22/open/tcp//ssh//OpenSSH 4.0 (protocol 2.0)/, 111/open/tcp//rpcbind//2 (RPC #100000)/, 10000/open/tcp//http//MiniServ 0.01 (Webmin httpd)/	Ignored State: closed (997)
+# Nmap done at Mon Jul  9 17:18:07 2018 -- 1 IP address (1 host up) scanned in 67.32 seconds

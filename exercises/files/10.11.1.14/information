@@ -1,0 +1,59 @@
+Host: 10.11.1.14 ()     Ports: 21/open/tcp//ftp//Microsoft ftpd/, 80/open/tcp//http//Microsoft IIS httpd 5.1/, 3389/open/tcp//ms-wbt-server?/// Ignored State: filtered (997)   Seq Index: 130  IP ID Seq: Incremental
+
+Operating systems - likely Windows XP
+
+Ftp allows anonymous login
+
+
+users:
+Administrator            bob                      Guest                    
+HelpAssistant            IUSR_BOB                 IWAM_BOB                 
+sh1                      SUPPORT_388945a0
+
+sh1 - admin, remote desktop user
+IUSR_BOB - anonymous login to IIS
+HelpAssistant - remote assistance for remote desktop
+
+
+Network:
+hostname = bob2
+
+Ports: (netstat -ano)
+Proto  Local Address          Foreign Address        State           PID
+  TCP    0.0.0.0:21             0.0.0.0:0              LISTENING       996
+  TCP    0.0.0.0:80             0.0.0.0:0              LISTENING       996
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       668
+  TCP    0.0.0.0:443            0.0.0.0:0              LISTENING       996
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:1025           0.0.0.0:0              LISTENING       716
+  TCP    0.0.0.0:1027           0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:1028           0.0.0.0:0              LISTENING       996
+  TCP    0.0.0.0:3004           0.0.0.0:0              LISTENING       1216
+  TCP    0.0.0.0:3006           0.0.0.0:0              LISTENING       2016
+  TCP    0.0.0.0:3007           0.0.0.0:0              LISTENING       2032
+  TCP    0.0.0.0:3010           0.0.0.0:0              LISTENING       1908
+  TCP    0.0.0.0:3017           0.0.0.0:0              LISTENING       716
+  TCP    0.0.0.0:3028           0.0.0.0:0              LISTENING       2444
+  TCP    0.0.0.0:3029           0.0.0.0:0              LISTENING       3372
+  TCP    0.0.0.0:3030           0.0.0.0:0              LISTENING       2508
+  TCP    0.0.0.0:3031           0.0.0.0:0              LISTENING       2824
+  TCP    0.0.0.0:3032           0.0.0.0:0              LISTENING       1356
+  TCP    0.0.0.0:3033           0.0.0.0:0              LISTENING       3148
+  TCP    0.0.0.0:3034           0.0.0.0:0              LISTENING       2960
+  TCP    0.0.0.0:3389           0.0.0.0:0              LISTENING       716
+  TCP    10.11.1.14:139         0.0.0.0:0              LISTENING       4
+UDP    0.0.0.0:135            *:*                                    668
+  UDP    0.0.0.0:161            *:*                                    1036
+  UDP    0.0.0.0:445            *:*                                    4
+  UDP    0.0.0.0:1026           *:*                                    716
+  UDP    0.0.0.0:3021           *:*                                    760
+  UDP    0.0.0.0:3456           *:*                                    996
+  UDP    10.11.1.14:137         *:*                                    4
+  UDP    10.11.1.14:138         *:*                                    4
+
+
+Program Files\freeSSHd\FreeSSHDService.ini:Password=771416F3334401596BC2CFAA54A5CF8665BD049312
+Program Files\WinRAR\Rar.txt:            secret.rar using the password 'fGzq5yKw'
+WINDOWS\msdfmap.ini:;Override strings: Connect, UserId, Password, Sql.
+WINDOWS\msdfmap.ini:Connect="DSN=MyLibraryInfo;UID=MyUserID;PWD=MyPassword"
+
